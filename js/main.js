@@ -498,7 +498,7 @@ function simp_loadAudio(elem) {
 }
 
 function simp_setAlbum(index) {
-    simp_cover.innerHTML = simp_a_url[index].dataset.cover ? '<div style="background:url(' + simp_a_url[index].dataset.cover + ') no-repeat;background-size:cover;width:80px;height:80px;"></div>' : '<i class="fa fa-music fa-5x"></i>';
+    simp_cover.innerHTML = simp_a_url[index].dataset.cover ? '<div style="background:url(' + simp_a_url[index].dataset.cover + ') no-repeat;background-size:cover;border-radius:50%;width:84px;height:84px;"></div>' : '<i class="fa fa-music fa-5x"></i>';
     simp_title.innerHTML = simp_source[index].querySelector('.simp-source').innerHTML;
     simp_artist.innerHTML = simp_source[index].querySelector('.simp-desc') ? simp_source[index].querySelector('.simp-desc').innerHTML : '';
 }
