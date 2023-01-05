@@ -1086,7 +1086,7 @@ a:visited {
     font-family: var(--inconsolata);
     text-align: initial;
     line-height: initial;
-    background: #03010d;
+    background: #02031c;
     color: #ddd;
     margin: 0 auto;
     border-radius: 6px;
@@ -1110,7 +1110,8 @@ a:visited {
 }
 
 #simp .simp-album .simp-title {
-    font-size: 120%;
+    font-size: 20px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
@@ -1307,7 +1308,7 @@ a:visited {
 }
 
 #simp ul li:nth-child(odd) {
-    background: #0e1621;
+    background: #00000063;
 }
 
 #simp ul li:hover {
@@ -1315,14 +1316,22 @@ a:visited {
 }
 
 #simp ul li.simp-active {
-    background: #4082bc;
+    background: #0000677b;
     color: #fff;
 }
 
 #simp ul li .simp-desc {
-    font-size: 90%;
-    opacity: .5;
+    /* font-size: 90%; */
+    /* opacity: .5; */
     margin-left: 5px;
+}
+
+.simp-desc {
+    font-size: 8px;
+    background-color: #da00a791;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    border-radius: 5px;
 }
 
 
