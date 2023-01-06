@@ -4,6 +4,7 @@
     --bg-color: #04020C;
     --text-color: #fff;
     --inconsolata: 'Inconsolata', monospace;
+    --border-radius: 1rem;
 }
 
 
@@ -172,11 +173,12 @@ select:-webkit-autofill:focus {
 }
 
 
-/*  */
+/* G-B */
 
 .g-b {
     --borderWidth: 1px;
     position: relative;
+    /* background-color: transparent; */
     border-radius: var(--borderWidth);
 }
 
@@ -193,7 +195,7 @@ select:-webkit-autofill:focus {
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     animation: animatedgradient 6s ease alternate infinite;
-    background-size: 300% 300%;
+    background-size: 600% 600%;
 }
 
 @keyframes animatedgradient {
@@ -283,6 +285,8 @@ select:-webkit-autofill:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .b-header__title {
@@ -635,7 +639,7 @@ select:-webkit-autofill:focus {
 
 .amb {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .amb__header {
@@ -730,7 +734,7 @@ select:-webkit-autofill:focus {
 /* 000 */
 
 .gradient-border {
-    --borderWidth: 0.3px;
+    --borderWidth: 1.6px;
     /* background: #1D1F20; */
     position: relative;
     border-radius: var(--borderWidth);
@@ -743,7 +747,9 @@ select:-webkit-autofill:focus {
     left: calc(-1 * var(--borderWidth));
     height: calc(100% + var(--borderWidth) * 2);
     width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background: linear-gradient(60deg, #10013d, #200080, #040426, #030c31, #060426, rgb(3, 3, 20), #00186d, #00013a);
+    /* background: linear-gradient(60deg, #09055a, #351188, #3f0d3c, #2e053e, #3b0158, #3f1148, #600c8a, #2d0262); */
+    /* background: linear-gradient(60deg, #042a5a, #210f8b, #1a0c6d, #210654, #5073b8, #1098ad, #2a0642, #a50013); */
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     animation: animatedgradient 5s ease alternate infinite;
@@ -778,7 +784,9 @@ select:-webkit-autofill:focus {
     align-items: center;
     justify-content: space-between;
     margin-top: 0;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .toons__header__content {
@@ -1132,7 +1140,7 @@ a:visited {
 }
 
 #simp .simp-controls button {
-    font-size: 130%;
+    font-size: 110%;
     width: 32px;
     height: 32px;
     background: none;

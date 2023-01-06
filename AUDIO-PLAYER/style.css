@@ -7,6 +7,128 @@ body {
     background: linear-gradient(to bottom right, #b968c5, skyblue);
 }
 
+:root {
+    --border-radius: 50%;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+/* html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+} */
+
+:root {
+    --border-radius: 50%;
+}
+
+.text {
+    z-index: 10;
+    font-size: 100px;
+    font-family: system-ui;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+
+.card {
+    position: relative;
+    height: 25rem;
+    width: 20rem;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: var(--border-radius);
+}
+
+.card::before {
+    content: "";
+    height: 1000px;
+    /* height: 40rem; */
+    width: 250px;
+    /* width: 15rem; */
+    background: linear-gradient(90deg, rgb(77, 255, 0), blue);
+    position: absolute;
+    z-index: 2;
+    animation: rotate 3.5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.card::after {
+    content: "";
+    height: 24.5rem;
+    width: 19.5rem;
+    background: black;
+    position: absolute;
+    z-index: 2;
+    border-radius: var(--border-radius);
+}
+
+
+/* 000 */
+
+.line {}
+
+.gradient-border {
+    --borderWidth: 2px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 5s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* audioplayer */
+
 .audio-player {
     height: 30px;
     width: 350px;
