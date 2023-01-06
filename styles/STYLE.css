@@ -275,7 +275,11 @@ select:-webkit-autofill:focus {
     padding-top: 20px;
     padding-bottom: 20px;
     /* background-image: url('../img/welcomeToBed/cosmos.jpg'); */
-    background-image: url('../img/welcomeToBed/gifs/str11.webp');
+    /* background-image: url('../img/welcomeToBed/gifs/str11.webp'); */
+    /* background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif'); */
+    background-image: url('https://media.giphy.com/media/RHIKETUlUINYvV7CAO/giphy.gif');
+    /* background-image: url('https://media.giphy.com/media/zW0n7AIWG4ka4/giphy.gif'); */
+    /* background-image: url('https://media.giphy.com/media/heOKY8nrJUMfK/giphy.gif'); */
     /* background-repeat: no-repeat; */
     background-position: center center;
     box-shadow: 0px 5px 15px rgba(7, 14, 147, 0.4);
