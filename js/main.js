@@ -696,3 +696,23 @@ if (document.querySelector('#simp')) {
     ap_simp.insertBefore(simp_player, simp_playlist);
     simp_startScript();
 }
+
+
+
+
+
+
+
+// VIDEO
+const btn = document.querySelector('.toon__play-link');
+const closeIcon = document.querySelector('.close-icon');
+const toonContainer = document.querySelector('.toon-container');
+
+
+btn.addEventListener('click', () => {
+    toonContainer.classList.remove('active');
+});
+
+closeIcon.addEventListener('click', () => {
+    toonContainer.classList.add('active');
+});
