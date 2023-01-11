@@ -1457,6 +1457,39 @@ a:visited {
 }
 
 
+/* selector rounds */
+
+.selector {
+    margin-top: 10px;
+    /* position: relative;
+    top: -30px; */
+    display: flex;
+    justify-content: center;
+}
+
+.selector-wrp {
+    display: flex;
+    align-items: center;
+}
+
+.selector-rnd {
+    background-color: var(--gray);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+
+.selector-rnd:not(:last-child) {
+    margin-right: 8px;
+}
+
+.selector-rnd:hover {
+    background-color: blue;
+}
+
+
 /* RETINA */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
