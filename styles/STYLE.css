@@ -1490,6 +1490,22 @@ a:visited {
 }
 
 
+/* show/hide/bold */
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.bold-active {
+    background-color: #00186d;
+    /* color: #00186d; */
+}
+
+
 /* RETINA */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
