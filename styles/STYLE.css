@@ -109,27 +109,6 @@ select:-webkit-autofill:focus {
 }
 
 
-/* BUTTON */
-
-.button {
-    display: inline-block;
-    padding: 8px 22px;
-    font-size: 14px;
-    line-height: 2;
-    font-weight: 500;
-    border: 2px solid transparent;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    white-space: nowrap;
-    border-radius: 5px;
-}
-
-.button:active {
-    opacity: 0.6;
-}
-
-
 /* INDEX.HTML */
 
 .first {
@@ -735,11 +714,19 @@ select:-webkit-autofill:focus {
 }
 
 
+/* wrappy */
+
+.wrappy {
+    padding-left: 94px;
+    padding-right: 94px;
+}
+
+
 /* 000 */
 
 .gradient-border {
-    --borderWidth: 1.6px;
-    /* background: #1D1F20; */
+    --borderWidth: 1.5px;
+    background: transparent;
     position: relative;
     border-radius: var(--borderWidth);
 }
@@ -1525,14 +1512,11 @@ only screen and ( min-resolution: 2dppx) {
             padding-bottom: 2px;
         }
         .b-header__title {
-            font-size: 27px;
+            font-size: 150%;
         }
         .b-header__logo {
             width: 60px;
             height: 60px;
-        }
-        .b-hero__header-title {
-            font-size: 25px;
         }
         .b-hero__header {
             padding: 5px;
