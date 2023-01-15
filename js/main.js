@@ -359,7 +359,13 @@
 // })
 
 
+// fix.
+const infoLink = document.querySelector('.toons__header__content-icon');
+const infoBtn = document.querySelector('.info-wrapp');
 
+infoLink.addEventListener('click', () => {
+    infoBtn.classList.toggle('hide');
+});
 
 
 
