@@ -1539,6 +1539,7 @@ only screen and ( min-resolution: 2dppx) {
         /* стили для телефонов - начало */
     }
     @media screen and (max-width: 400px) {
+<<<<<<< HEAD
         .info-wrapp {
             position: relative;
             top: 40px;
@@ -1552,6 +1553,11 @@ only screen and ( min-resolution: 2dppx) {
         }
         .info-text {
             font-size: 10px;
+=======
+        .wrappy {
+            padding-right:10px;
+            padding-left:10px;
+>>>>>>> f9e7842e9bbc99d2dfd962949c049e7e95002119
         }
         .b-header {
             padding-top: 2px;
