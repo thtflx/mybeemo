@@ -369,7 +369,7 @@
 
 
 const btnn = document.querySelector('.toons__header__content-link');
-const closeIconn = document.querySelector('.close-icon');
+const closeIcons = document.querySelectorAll('.close-icon');
 const inf = document.querySelector('.inf');
 
 
@@ -377,9 +377,11 @@ btnn.addEventListener('click', () => {
     inf.classList.remove('active');
 });
 
-closeIconn.addEventListener('click', () => {
-    inf.classList.add('active');
-});
+closeIcons.forEach((item) => {
+    item.addEventListener('click', () => {
+        inf.classList.add('active');
+    });
+})
 
 
 
