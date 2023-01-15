@@ -724,32 +724,52 @@ select:-webkit-autofill:focus {
 
 /* info */
 
-.info-wrapp {
-    z-index: 1000;
-    display: block;
-    position: relative;
-    top: 40px;
-    left: -50px;
-    padding: 5px;
-    width: 140px;
-    height: 90px;
-    border-radius: 20px;
-    flex-direction: column;
+.inf {
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.598);
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
     justify-content: center;
-    background-color: #004789;
+    align-items: center;
 }
 
 .info-title {
-    margin-top: 0;
-    margin-bottom: 2px;
-    font-size: 16px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 0;
+    margin-bottom: 2px; */
+    margin: 0;
+    font-size: 36px;
+    background-color: #004789;
+    padding: 0;
+    border-top: 2px solid white;
 }
 
 .info-text {
+    position: relative;
+    top: 200px;
     display: flex;
     justify-content: center;
     margin: 0;
-    font-size: 10px;
+    font-size: 18px;
+    background-color: #004789;
+    /* padding: 6px; */
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.683);
+}
+
+.active {
+    visibility: hidden;
 }
 
 
@@ -1539,7 +1559,7 @@ only screen and ( min-resolution: 2dppx) {
         /* стили для телефонов - начало */
     }
     @media screen and (max-width: 400px) {
-        .info-wrapp {
+        /* .info-wrapp {
             position: relative;
             top: 40px;
             left: -50px;
@@ -1552,7 +1572,7 @@ only screen and ( min-resolution: 2dppx) {
         }
         .info-text {
             font-size: 10px;
-        }
+        } */
         .wrappy {
             padding-right: 10px;
             padding-left: 10px;

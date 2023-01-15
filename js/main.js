@@ -360,13 +360,26 @@
 
 
 // fix.
-const infoLink = document.querySelector('.toons__header__content-icon');
-const infoBtn = document.querySelector('.info-wrapp');
+// const infoLink = document.querySelector('.toons__header__content-icon');
+// const infoBtn = document.querySelector('.info-wrapp');
 
-infoLink.addEventListener('click', () => {
-    infoBtn.classList.toggle('hide');
+// infoLink.addEventListener('click', () => {
+//     infoBtn.classList.toggle('hide');
+// });
+
+
+const btnn = document.querySelector('.toons__header__content-link');
+const closeIconn = document.querySelector('.close-icon');
+const inf = document.querySelector('.inf');
+
+
+btnn.addEventListener('click', () => {
+    inf.classList.remove('active');
 });
 
+closeIconn.addEventListener('click', () => {
+    inf.classList.add('active');
+});
 
 
 
