@@ -5,6 +5,7 @@
     --text-color: #fff;
     --inconsolata: 'Inconsolata', monospace;
     --border-radius: 1rem;
+    --verdana: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -908,22 +909,25 @@ select:-webkit-autofill:focus {
 }
 
 .toon__main {
+    width: 280px;
     margin: 0;
 }
 
 .toon__title {
     margin-top: 0;
     margin-bottom: 7px;
-    font-size: 34px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
+    font-family: var(--verdana);
 }
 
 .toon__text {
     margin: 0;
     color: #b8abab;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
+    font-family: var(--verdana);
 }
 
 .toon__play-link {
@@ -1839,9 +1843,9 @@ only screen and ( min-resolution: 2dppx) {
         .toons__item:not(:last-child) {
             margin-right: 0px;
         }
-        .toon__title {
+        /* .toon__title {
             font-size: 30px;
-        }
+        } */
         .toon__img {
             width: 260px;
             height: 150px;
