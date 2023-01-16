@@ -1631,12 +1631,12 @@ a:visited {
     background-color: rgb(11, 0, 55);
 }
 
-.contnr .video-list .vid.active {
+.contnr .video-list .vid.act {
     background-color: #2980b9;
 }
 
-.contnr .video-list .vid.active .title {
-    color: #fff;
+.contnr .video-list .vid.act .title {
+    color: rgb(10, 1, 37);
 }
 
 .contnr .video-list .vid .title {

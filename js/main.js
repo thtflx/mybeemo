@@ -376,10 +376,10 @@ const title = document.querySelector('.main-video .title');
 listVideo.forEach(video => {
     video.onclick = () => {
         listVideo.forEach((vid) => {
-            vid.classList.remove('active');
+            vid.classList.remove('act');
         });
-        video.classList.add('active');
-        if (video.classList.contains('active')) {
+        video.classList.add('act');
+        if (video.classList.contains('act')) {
             let src = video.children[0].getAttribute('src');
             mainVideo.src = src;
             let text = video.children[1].innerHTML;
