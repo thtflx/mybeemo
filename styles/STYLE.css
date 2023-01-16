@@ -891,6 +891,8 @@ select:-webkit-autofill:focus {
 }
 
 .toon__img {
+    display: flex;
+    justify-content: center;
     margin-top: 0;
     margin-bottom: 10px;
     width: 280px;
@@ -1839,6 +1841,10 @@ only screen and ( min-resolution: 2dppx) {
         }
         .toon__title {
             font-size: 30px;
+        }
+        .toon__img {
+            width: 260px;
+            height: 150px;
         }
         .toon__play-icon {
             width: 40px;
