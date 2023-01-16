@@ -1541,6 +1541,123 @@ a:visited {
 }
 
 
+/* VIDEO-PLAYLIST */
+
+.video-playlist {
+    /* z-index: 10000;
+    position: relative; */
+}
+
+.heading {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.contnr {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px -5%;
+}
+
+.contnr .main-video {
+    /* background-color: rgba(21, 21, 21, 0.676);
+    border: 1px solid rgba(0, 0, 0, 0.92); */
+    background-color: rgba(4, 8, 42, 0.842);
+    border: 1px solid rgb(1, 7, 16);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contnr .main-video video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contnr .main-video .title {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contnr .video-list {
+    /* background-color: rgb(255, 0, 0); */
+    /* background-color: rgba(9, 1, 90, 0.676); */
+    /* background-color: rgba(5, 2, 16, 0.842); */
+    background-color: rgba(4, 8, 42, 0.842);
+    border: 1px solid rgb(1, 7, 16);
+    border-radius: 5px;
+    height: 520px;
+    overflow-y: scroll;
+}
+
+.contnr .video-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.contnr .video-list::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+.contnr .video-list::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 63, 237);
+    border-radius: 50px;
+}
+
+.contnr .video-list .vid video {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.contnr .video-list .vid {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* background-color: #070770; */
+    background-color: rgba(5, 1, 30, 0.959);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.contnr .video-list .vid:hover {
+    background-color: rgb(11, 0, 55);
+}
+
+.contnr .video-list .vid.active {
+    background-color: #2980b9;
+}
+
+.contnr .video-list .vid.active .title {
+    color: #fff;
+}
+
+.contnr .video-list .vid .title {
+    color: rgb(255, 249, 249);
+    font-size: 12px;
+}
+
+@media(max-width:991px) {
+    .contnr {
+        grid-template-columns: 2fr 1fr;
+        padding: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .contnr {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 /* RETINA */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
