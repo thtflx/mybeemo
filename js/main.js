@@ -368,6 +368,29 @@
 // });
 
 
+// VIDEO-PLAYLIST
+const listVideo = document.querySelectorAll('.video-list .vid');
+const mainVideo = document.querySelector('.main-video video');
+const title = document.querySelector('.main-video .title');
+
+listVideo.forEach(video => {
+    video.onclick = () => {
+        listVideo.forEach((vid) => {
+            vid.classList.remove('act');
+        });
+        video.classList.add('act');
+        if (video.classList.contains('act')) {
+            let src = video.children[0].getAttribute('src');
+            mainVideo.src = src;
+            let text = video.children[1].innerHTML;
+            title.innerHTML = text;
+        };
+    };
+});
+
+
+
+// modal
 const btnn = document.querySelector('.toons__header__content-link');
 const closeIcons = document.querySelectorAll('.close-icon');
 const inf = document.querySelector('.inf');
@@ -724,19 +747,19 @@ if (document.querySelector('#simp')) {
 
 
 
-// VIDEO
-const btn = document.querySelector('.toon__play-link');
-const closeIcon = document.querySelector('.close-icon');
-const toonContainer = document.querySelector('.toon-container');
+// // VIDEO
+// const btn = document.querySelector('.toon__play-link');
+// const closeIcon = document.querySelector('.close-icon');
+// const toonContainer = document.querySelector('.toon-container');
 
 
-btn.addEventListener('click', () => {
-    toonContainer.classList.remove('active');
-});
+// btn.addEventListener('click', () => {
+//     toonContainer.classList.remove('active');
+// });
 
-closeIcon.addEventListener('click', () => {
-    toonContainer.classList.add('active');
-});
+// closeIcon.addEventListener('click', () => {
+//     toonContainer.classList.add('active');
+// });
 
 
 
