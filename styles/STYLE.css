@@ -1663,6 +1663,23 @@ a:visited {
     }
 }
 
+.bld {
+    /* display: flex; */
+    margin-left: 2px;
+    justify-content: center;
+    /* padding: 1px; */
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+    font-weight: 500;
+    background-color: rgb(254, 254, 254);
+    color: #000;
+    font-size: 10px;
+    /* background: linear-gradient(to bottom, white 33%, blue 66%, red 66%); */
+}
+
 
 /* RETINA */
 
