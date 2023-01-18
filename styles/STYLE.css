@@ -1697,6 +1697,64 @@ only screen and ( min-resolution: 2dppx) {
     }
     @media screen and (max-width: 479px) {
         /* index.html */
+        .first__title-gif {
+            width: 100px;
+            height: 100px;
+            margin-right: 30px;
+        }
+        .first__title {
+            font-size: 40px;
+        }
+        .first__time-cathegory {
+            padding: 2px;
+        }
+        .first__time-content {
+            display: flex;
+            justify-content: center;
+        }
+        .first__time-title {
+            font-size: 25px;
+        }
+        .first__time__btn-icon {
+            width: 60px;
+            height: 60px;
+        }
+        .first__time-icon {
+            width: 60px;
+            height: 60px;
+        }
+        @media screen and (max-width: 447px) {
+            .first__time-title {
+                font-size: 24px;
+            }
+            .first__time-icon {
+                width: 50px;
+                height: 50px;
+            }
+            @media screen and (max-width: 426px) {
+                .first__title-gif {
+                    width: 80px;
+                    height: 80px;
+                    margin-right: 20px;
+                }
+                .first__time-title {
+                    font-size: 23px;
+                }
+                .first__time-icon {
+                    width: 42px;
+                    height: 42px;
+                }
+                @media screen and (max-width: 408px) {
+                    .first__time-title {
+                        font-size: 20px;
+                    }
+                    .first__time-icon {
+                        width: 42px;
+                        height: 42px;
+                    }
+                }
+            }
+        }
         /* ambience.html */
         /* sleep.html */
         /* toons.html */
