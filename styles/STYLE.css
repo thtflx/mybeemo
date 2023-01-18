@@ -1696,7 +1696,11 @@ only screen and ( min-resolution: 2dppx) {
         /* стили для средних планшетов - начало */
     }
     @media screen and (max-width: 479px) {
-        /* стили для телефонов - начало */
+        /* index.html */
+        /* ambience.html */
+        /* sleep.html */
+        /* toons.html */
+        /* toons.html */
     }
     @media screen and (max-width: 400px) {
         /* .info-wrapp {
