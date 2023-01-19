@@ -1968,7 +1968,7 @@ a:visited {
             top: -60px;
         }
         .str-main__item:not(:last-child) {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         .str-btn-time-text {
             font-size: 20px;
