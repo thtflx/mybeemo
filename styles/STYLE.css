@@ -1683,98 +1683,131 @@ a:visited {
 
 /* RETINA */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and ( min--moz-device-pixel-ratio: 2),
-only screen and ( -o-min-device-pixel-ratio: 2/1),
-only screen and ( min-device-pixel-ratio: 2),
-only screen and ( min-resolution: 192dpi),
-only screen and ( min-resolution: 2dppx) {
-    @media screen and (max-width: 991px) {
-        /* стили для больших планшетов - начало */
+@media screen and (max-width: 479px) {
+    /* index.html */
+    .first__title-gif {
+        width: 100px;
+        height: 100px;
+        margin-right: 30px;
     }
-    @media screen and (max-width: 767px) {
-        /* стили для средних планшетов - начало */
+    .first__title {
+        font-size: 40px;
     }
-    @media screen and (max-width: 479px) {
-        /* index.html */
-        .first__title-gif {
-            width: 100px;
-            height: 100px;
-            margin-right: 30px;
-        }
-        .first__title {
-            font-size: 40px;
-        }
-        .first__time-cathegory {
-            padding: 2px;
-        }
-        .first__time-content {
-            display: flex;
-            justify-content: center;
-        }
+    .first__time-cathegory {
+        padding: 2px;
+    }
+    .first__time-content {
+        display: flex;
+        justify-content: center;
+    }
+    .first__time-title {
+        font-size: 25px;
+    }
+    .first__time__btn-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .first__time-icon {
+        width: 60px;
+        height: 60px;
+    }
+    @media screen and (max-width: 447px) {
         .first__time-title {
-            font-size: 25px;
-        }
-        .first__time__btn-icon {
-            width: 60px;
-            height: 60px;
+            font-size: 24px;
         }
         .first__time-icon {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
         }
-        @media screen and (max-width: 447px) {
+        @media screen and (max-width: 426px) {
+            .first__title-gif {
+                width: 80px;
+                height: 80px;
+                margin-right: 20px;
+            }
             .first__time-title {
-                font-size: 24px;
+                font-size: 23px;
             }
             .first__time-icon {
-                width: 50px;
-                height: 50px;
+                width: 42px;
+                height: 42px;
             }
-            @media screen and (max-width: 426px) {
-                .first__title-gif {
-                    width: 80px;
-                    height: 80px;
-                    margin-right: 20px;
-                }
+            @media screen and (max-width: 408px) {
                 .first__time-title {
-                    font-size: 23px;
+                    font-size: 20px;
                 }
                 .first__time-icon {
                     width: 42px;
                     height: 42px;
                 }
-                @media screen and (max-width: 408px) {
-                    .first__time-title {
-                        font-size: 20px;
-                    }
-                    .first__time-icon {
-                        width: 42px;
-                        height: 42px;
-                    }
+            }
+        }
+    }
+    /* ambience.html */
+    .toons__header__content-title {
+        font-size: 47px;
+        line-height: 30px;
+    }
+    .toons__header__content-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .wrappy {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* FOOTER */
+    .b-footer__wrapper {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    @media screen and (max-width: 437px) {
+        .b-footer__wrapper {
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        @media screen and (max-width: 426px) {
+            .b-footer__wrapper {
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            @media screen and (max-width: 415px) {
+                .b-footer__wrapper {
+                    padding-left: 70px;
+                    padding-right: 70px;
                 }
             }
         }
-        /* ambience.html */
+    }
+    .b-footer__list {
+        padding: 8px 2px 8px 2px;
+    }
+    .b-footer__item:not(:last-child) {
+        margin-right: 40px;
+    }
+    .b-footer__img {
+        margin: 0;
+        width: 30px;
+        height: 30px;
+    }
+    .b-footer__text {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    @media screen and (max-width: 430px) {
+        .toons__header__content-title {
+            font-size: 43px;
+            line-height: 30px;
+        }
+        .toons__header__content-icon {
+            width: 17px;
+            height: 17px;
+        }
         /* sleep.html */
         /* toons.html */
         /* toons.html */
     }
     @media screen and (max-width: 400px) {
-        /* .info-wrapp {
-            position: relative;
-            top: 40px;
-            left: -50px;
-            padding: 5px;
-            width: 140px;
-            height: 90px;
-        }
-        .info-title {
-            font-size: 16px;
-        }
-        .info-text {
-            font-size: 10px;
-        } */
         .wrappy {
             padding-right: 10px;
             padding-left: 10px;
@@ -1792,7 +1825,6 @@ only screen and ( min-resolution: 2dppx) {
         }
         .b-hero__header {
             padding: 5px;
-            /* justify-content: space-between; */
         }
         .b-hero__header-title {
             font-size: 24px;
@@ -1922,9 +1954,6 @@ only screen and ( min-resolution: 2dppx) {
         .toons__item:not(:last-child) {
             margin-right: 0px;
         }
-        /* .toon__title {
-            font-size: 30px;
-        } */
         .toon__img {
             width: 260px;
             height: 150px;
@@ -1999,11 +2028,6 @@ only screen and ( min-resolution: 2dppx) {
             margin-right: 5px;
         }
     }
-    @media screen and (max-width: 368px) {
-        .first__time-title {
-            font-size: 16px;
-        }
-    }
     @media screen and (max-width: 383px) {
         .amb__content {
             margin-right: 95px;
@@ -2012,6 +2036,21 @@ only screen and ( min-resolution: 2dppx) {
     @media screen and (max-width: 383px) {
         .amb__content {
             margin-right: 90px;
+        }
+    }
+    @media screen and (max-width: 375px) {
+        .toons__header__content-title {
+            font-size: 35px;
+            line-height: 30px;
+        }
+        .toons__header__content-icon {
+            width: 18px;
+            height: 18px;
+        }
+    }
+    @media screen and (max-width: 368px) {
+        .first__time-title {
+            font-size: 16px;
         }
     }
 }
