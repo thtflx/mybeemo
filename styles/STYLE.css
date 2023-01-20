@@ -405,6 +405,10 @@ select:-webkit-autofill:focus {
 .b-footer {
     padding-top: 10px;
     padding-bottom: 10px;
+    /* background: url('../img/wow1.webp'); */
+    /* background: url('../img/wow3.gif'); */
+    background: url('https://i.gifer.com/Y3iZ.gif');
+    background-repeat: repeat-x;
 }
 
 .b-footer__wrapper {
@@ -820,6 +824,28 @@ select:-webkit-autofill:focus {
 .toons {
     padding-top: 20px;
     padding-bottom: 20px;
+    /* background-color: red; */
+    /* 1 */
+    /* background: url('https://i.gifer.com/2iiB.gif'); */
+    /* 2 */
+    /* background: url('https://i.gifer.com/WG8P.gif'); */
+    /* 3 */
+    /* background: url('https://i.gifer.com/2iiB.gif'); */
+    /* background-position: center 100px; */
+    /* background-repeat: no-repeat; */
+    /* 4 */
+    /* background: url('https://i.gifer.com/3nRI.gif'); */
+    /* 5 */
+    /* background: url('https://i.gifer.com/2iiH.gif'); */
+    /* 6 */
+    /* background: url('https://i.gifer.com/2zGj.gif'); */
+    /* 7 */
+    /* background: url('https://i.gifer.com/Y3iZ.gif'); */
+}
+
+.toons__list {
+    /* background: url('../img/wow3.gif'); */
+    background: url('https://i.gifer.com/2iiB.gif');
 }
 
 .toons__header {
