@@ -841,6 +841,15 @@ select:-webkit-autofill:focus {
     /* background: url('https://i.gifer.com/2zGj.gif'); */
     /* 7 */
     /* background: url('https://i.gifer.com/Y3iZ.gif'); */
+    /* 8 */
+    /* background: url('https://i.gifer.com/ZPmr.gif'); */
+    /* 9 */
+    /* background: url('https://i.gifer.com/3iCL.gif'); */
+    /* 10 */
+    /* background: url('https://i.gifer.com/OwtC.gif'); */
+    /* 11 */
+    /* background: url('https://i.gifer.com/WMih.gif');
+    background-size: cover; */
 }
 
 .toons__list {
@@ -856,7 +865,8 @@ select:-webkit-autofill:focus {
     margin-bottom: 20px;
     padding-left: 1px;
     padding-right: 1px;
-    background: url('https://i.gifer.com/Y3iZ.gif');
+    /* background: url('https://i.gifer.com/3iCL.gif'); */
+    /* background: url('https://i.gifer.com/WMih.gif'); */
     background-repeat: repeat-x;
 }
 
