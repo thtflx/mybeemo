@@ -115,6 +115,39 @@ select:-webkit-autofill:focus {
 .first {
     padding-top: 100px;
     padding-bottom: 30px;
+    /* 1 */
+    /* background: url('https://i.gifer.com/2iiB.gif'); */
+    /* 2 */
+    /* background: url('https://i.gifer.com/WG8P.gif'); */
+    /* 3 */
+    /* background: url('https://i.gifer.com/2iiB.gif'); */
+    /* background-position: center 100px; */
+    /* background-repeat: no-repeat; */
+    /* 4 */
+    /* background: url('https://i.gifer.com/3nRI.gif'); */
+    /* 5 */
+    /* background: url('https://i.gifer.com/2iiH.gif'); */
+    /* 6 */
+    /* background: url('https://i.gifer.com/2zGj.gif'); */
+    /* 7 */
+    /* background: url('https://i.gifer.com/Y3iZ.gif'); */
+    /* 8 */
+    /* background: url('https://i.gifer.com/ZPmr.gif'); */
+    /* 9 */
+    background: url('https://i.gifer.com/3iCL.gif');
+    /* background-position: center center; */
+    /* 10 */
+    /* background: url('https://i.gifer.com/OwtC.gif'); */
+    /* 11 */
+    /* background: url('https://i.gifer.com/WMih.gif'); */
+}
+
+.bggg {
+    width: 700px;
+    height: 400px;
+    background-position: center center;
+    transform: rotate(-25deg);
+    background: url('https://i.gifer.com/3iCL.gif');
 }
 
 .first__title-wrap {
