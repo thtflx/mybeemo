@@ -1614,7 +1614,6 @@ a:visited {
 
 .bold-active {
     background-color: #00186d;
-    /* color: #00186d; */
 }
 
 
@@ -1652,8 +1651,6 @@ a:visited {
 .history-tab {
     padding: 9px;
     background-color: #20006b;
-    /* padding: 20px; */
-    /* width: 500px; */
     border-radius: 5px;
     border: 1px solid whitesmoke;
 }
@@ -1676,19 +1673,6 @@ a:visited {
     border: 3px solid #030d31;
     background-image: url('../img/welcomeToBed/petro-img-MAIN.png');
 }
-
-
-/* .black-blur-line::before {
-    content: "";
-    position: absolute;
-    top: 20px;
-    bottom: -20px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to top, black, transparent);
-    z-index: 10;
-} */
 
 .hstr-two-btns {
     display: flex;
@@ -1724,6 +1708,210 @@ a:visited {
 .hstr-btn-icon {}
 
 .hsttr-btn-text {}
+
+
+/* MAIN */
+
+.hstr-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.hstr-contextss {
+    display: flex;
+    justify-content: center;
+}
+
+.hstr-context-1 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.hstr-context-1-img {
+    width: 240px;
+    height: 350px;
+    margin-right: 25px;
+    border-radius: 8px;
+    border: 1.8px solid rgb(255, 196, 0);
+}
+
+.hstr-context-1-text {
+    width: 300px;
+}
+
+.hstr-context-2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.hstr-context-2-text {
+    width: 300px;
+    margin-right: 25px
+}
+
+.hstr-context-2-img {
+    width: 240px;
+    height: 350px;
+    border-radius: 8px;
+    border: 1.8px solid rgb(255, 196, 0);
+}
+
+.hstr-context-3 {
+    width: 500px;
+}
+
+.hstr-context-3-img {
+    margin-top: 19px;
+    border: 1.8px solid rgb(255, 196, 0);
+}
+
+.hstr-context-3-text {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* media-query */
+
+
+/* @media(max-width:400px) {
+    .hstr-context-1 {
+        width: 500px;
+    }
+    .hstr-context-1-img {
+        width: 160px;
+        height: 250px;
+        margin-right: 10px;
+    }
+    .hstr-context-1-text {
+        width: 200px;
+        font-size: 15px;
+    }
+    .hstr-context-2 {
+        width: 500px;
+    }
+    .hstr-context-2-img {
+        width: 240px;
+        height: 350px;
+        margin-right: 25px;
+    }
+    .hstr-context-2-text {
+        width: 300px;
+    }
+    .hstr-context-3 {
+        width: 500px;
+    }
+    .hstr-context-3-img {
+        width: 240px;
+        height: 350px;
+        margin-right: 25px;
+    }
+    .hstr-context-3-text {
+        width: 500px;
+    }
+} */
+
+@media(max-width:360px) {
+    .hstr-title {
+        font-size: 27px;
+    }
+    /* 1 */
+    .hstr-context-1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        /* width: 400px; */
+    }
+    .hstr-context-1-img {
+        width: 160px;
+        height: 250px;
+        margin-right: 10px;
+    }
+    .hstr-context-1-text {
+        width: 150px;
+        font-size: 12px;
+    }
+    /* 2 */
+    .hstr-context-2 {
+        display: flex;
+        justify-content: center;
+    }
+    .hstr-context-2-text {
+        width: 130px;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+    .hstr-context-2-img {
+        width: 160px;
+        height: 250px;
+        margin: 0;
+    }
+    /* 3 */
+    .hstr-context-3 {}
+    .hstr-context-3-img {
+        display: flex;
+        justify-content: center;
+    }
+    .hstr-context-3-text {
+        width: 400px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:360px) {
+    .hstr-title {
+        font-size: 27px;
+    }
+    /* 1 */
+    .hstr-context-1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        /* width: 400px; */
+    }
+    .hstr-context-1-img {
+        width: 160px;
+        height: 250px;
+        margin-right: 10px;
+    }
+    .hstr-context-1-text {
+        width: 150px;
+        font-size: 12px;
+    }
+    /* 2 */
+    .hstr-context-2 {
+        display: flex;
+        justify-content: center;
+    }
+    .hstr-context-2-text {
+        width: 130px;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+    .hstr-context-2-img {
+        width: 160px;
+        height: 250px;
+        margin: 0;
+    }
+    /* 3 */
+    .hstr-context-3 {}
+    .hstr-context-3-img {
+        display: flex;
+        justify-content: center;
+    }
+    .hstr-context-3-text {
+        width: 400px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 /* VIDEO-PLAYLIST */

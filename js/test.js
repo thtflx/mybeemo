@@ -1,6 +1,6 @@
 // CHOOSE STORY
 // 5th try.
-const wrapperTab = document.querySelector('.history-all');
+const wrapperTab = document.querySelector('.history');
 const tabItems = document.querySelectorAll('.history__item');
 const tabContents = document.querySelectorAll('.history-tab');
 
