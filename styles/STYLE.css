@@ -1618,6 +1618,80 @@ a:visited {
 }
 
 
+/* HISTORY */
+
+.history-all {
+    background-color: #040f1a;
+    padding: 20px;
+    width: 650px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+.history__list {
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    background-color: #2980b9;
+    border-radius: 4px;
+}
+
+.history__item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.history__item {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #04020C;
+}
+
+.history-tab {
+    padding: 9px;
+    background-color: #20006b;
+    /* padding: 20px; */
+    /* width: 500px; */
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+.history-tab:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.aktiv {
+    color: rgb(255, 119, 0);
+    font-weight: bold;
+}
+
+
+/* HSTR */
+
+.hstr-head {
+    height: 500px;
+    background-image: url('../img/welcomeToBed/petro-img-MAIN.png');
+}
+
+.hstr-two-btns {
+    display: flex;
+    align-items: center;
+}
+
+.hstr-big-img {}
+
+.hstr-btn {
+    display: flex;
+    align-items: center;
+}
+
+.hstr-btn-icon {}
+
+.hsttr-btn-text {}
+
+
 /* VIDEO-PLAYLIST */
 
 .video-playlist {
