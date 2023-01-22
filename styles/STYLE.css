@@ -1815,7 +1815,7 @@ a:visited {
     }
 } */
 
-@media(max-width:360px) {
+@media(max-width:400px) {
     .hstr-title {
         font-size: 27px;
     }
@@ -1868,12 +1868,10 @@ a:visited {
     .hstr-title {
         font-size: 27px;
     }
-    /* 1 */
     .hstr-context-1 {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
-        /* width: 400px; */
     }
     .hstr-context-1-img {
         width: 160px;
@@ -1884,7 +1882,6 @@ a:visited {
         width: 150px;
         font-size: 12px;
     }
-    /* 2 */
     .hstr-context-2 {
         display: flex;
         justify-content: center;
@@ -1899,7 +1896,6 @@ a:visited {
         height: 250px;
         margin: 0;
     }
-    /* 3 */
     .hstr-context-3 {}
     .hstr-context-3-img {
         display: flex;
