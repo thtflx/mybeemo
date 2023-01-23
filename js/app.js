@@ -96,10 +96,6 @@
 
 
 
-
-
-
-
 // SELECTOR
 const selectorParent = document.querySelector('.selector');
 const selectorBtns = document.querySelectorAll('.selector-rnd');

@@ -31,125 +31,188 @@
     <link rel="stylesheet" href="styles/STYLE.css">
 </head>
 
-<body>
+<body class="sleep-html">
     <!-- SLEEP.HTML -->
 
-    <!-- HEADER -->
-    <header class="b-header">
-        <div class="b-header__container container">
-            <h1 class="b-header__title">WELCOME TO BED, SWEETY</h1>
-            <a class="b-header__link" href="index.html">
-                <img src="img/welcomeToBed/LOGO.png" class="b-header__logo">
-            </a>
-        </div>
-    </header>
+    <div class="ambience-html">
+        <!-- HEADER -->
+        <header class="b-header">
+            <div class="b-header__container container">
+                <h1 class="b-header__title">WELCOME TO BED, SWEETY</h1>
+                <a class="b-header__link" href="index.html">
+                    <img src="img/welcomeToBed/LOGO.png" class="b-header__logo">
+                </a>
+            </div>
+        </header>
 
-    <!-- HISTORY -->
-    <div class="history container gradient-border1" style="margin-top: 35px;">
-        <h2 style="display: flex; justify-content: center; margin-top: 5px; margin-bottom: 5px;">ITEMS</h2>
-        <ul class="history__list container">
-            <li class="history__item aktiv">Come here!</li>
-            <li class="history__item">History #2</li>
-            <li class="history__item">Little NIGHTMARES</li>
-            <li class="history__item">Petro and the Flea King</li>
-        </ul>
-        <h2 style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 5px;">STORIES</h2>
-        <div class="history__ccc">
-            <div class="history__contents">
-                <!-- 1-HISTORY -->
-                <div class="history-tab">
-                    <h3>What will be here?</h3>
-                    <p>I wanna tell u about these stories. The stories are fictional, but very quite engaging. You can read and listen to audio at the same time. Little stories will help you fall asleep. Have a good read :)</p>
-                </div>
-                <!-- 2-HISTORY -->
-                <div class="history-tab">
-                    <h3>History 2</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non libero ipsum nobis voluptatum nemo modi?</p>
-                </div>
-                <!-- 3-HISTORY -->
-                <div class="history-tab">
-                    <!-- BIG-IMG -->
-                    <header class="hstr-head3">
-                    </header>
-                    <div class="hstr-two-btns">
-                        <a class="hstr-big-link" href="#">
-                            <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
-                        </a>
-                        <div class="hstr-btn">
-                            <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
-                            <p class="hsttr-btn-text">20-25 minutes</p>
-                        </div>
+        <!-- LANGUAGE -->
+        <section class="language">
+            <h2 class="language-title">Choose your language</h2>
+            <div class="language-container container">
+                <button class="lang" id="uz">uz</button>
+                <button class="lang" id="ru">ru</button>
+                <button class="lang" id="eng">eng</button>
+            </div>
+        </section>
+
+
+        <!-- form -->
+        <!-- <div class="filter">
+            <select class="filter-select" name="country-type" id="country-type-select">
+                <optgroup class="filter-group">
+                    <option selected disabled>Change language</option>
+                    <option id="uz">O'zbek</option>
+                    <option id="ru">Русский</option>
+                    <option id="eng">English</option>
+                </optgroup>
+            </select>
+        </div> -->
+
+
+
+        <!-- HISTORY -->
+        <div class="history container gradient-border1" style="margin-top: 35px;">
+            <h2 style="display: flex; justify-content: center; margin-top: 5px; margin-bottom: 5px;">ITEMS</h2>
+            <ul class="history__list container">
+                <li class="history__item aktiv">Come here!</li>
+                <li class="history__item">History #2</li>
+                <li class="history__item">Little NIGHTMARES</li>
+                <li class="history__item">Petro and the Flea King</li>
+            </ul>
+            <h2 style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 5px;">STORIES</h2>
+            <div class="history__ccc">
+                <div class="history__contents">
+                    <!-- 1-HISTORY -->
+                    <div class="history-tab">
+                        <h3>What will be here?</h3>
+                        <p>I wanna tell u about these stories. The stories are fictional, but very quite engaging. You can read and listen to audio at the same time. Little stories will help you fall asleep. Have a good read :)</p>
                     </div>
-                    <!-- MAIN -->
-                    <h3 class="hstr-title">Little NIGHTMARES</h3>
-                    <div class="hstr-contextss">
-                        <div class="hstr-contexts">
-                            <div class="hstr-context-1">
-                                <img class="hstr-context-1-img" src="img/histories/1.jpg">
-                                <p class="hstr-context-1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod ducimus
-                                    voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
-                                </p>
+                    <!-- 2-HISTORY -->
+                    <div class="history-tab">
+                        <h3>History 2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non libero ipsum nobis voluptatum nemo modi?</p>
+                    </div>
+                    <!-- 3-HISTORY -->
+                    <div class="history-tab">
+                        <!-- BIG-IMG -->
+                        <header class="hstr-head3">
+                        </header>
+                        <div class="hstr-two-btns">
+                            <a class="hstr-big-link" href="#">
+                                <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
+                            </a>
+                            <div class="hstr-btn">
+                                <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
+                                <p class="hsttr-btn-text">20-25 minutes</p>
                             </div>
-                            <div class="hstr-context-2 container">
-                                <p class="hstr-context-2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod ducimus
-                                    voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
-                                </p>
-                                <img class="hstr-context-2-img" src="img/histories/2.jpg">
-                            </div>
-                            <!-- <div class="hstr-context-3 container">
+                        </div>
+                        <!-- MAIN -->
+                        <h3 class="hstr-title">Little NIGHTMARES</h3>
+                        <div class="hstr-contextss">
+                            <div class="hstr-contexts">
+                                <div class="hstr-context-1">
+                                    <img class="hstr-context-1-img" src="img/histories/1.jpg">
+                                    <p class="hstr-context-1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod
+                                        ducimus voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
+                                    </p>
+                                </div>
+                                <div class="hstr-context-2 container">
+                                    <p class="hstr-context-2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod
+                                        ducimus voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
+                                    </p>
+                                    <img class="hstr-context-2-img" src="img/histories/2.jpg">
+                                </div>
+                                <!-- <div class="hstr-context-3 container">
                                     <img class="hstr-context-3-img" src="img/sleep time.jpg">
                                     <p class="hstr-context-3-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores incidunt at iste atque autem repellendus illo, officiis vitae distinctio perferendis sapiente, architecto voluptates quaerat eveniet quod veniam culpa. Quos,
                                         ipsa.
                                     </p>
                                 </div> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="history-tab">
-                    <!-- BIG-IMG -->
-                    <header class="hstr-head">
-                    </header>
-                    <div class="hstr-two-btns">
-                        <a class="hstr-big-link" href="#">
-                            <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
-                        </a>
-                        <div class="hstr-btn">
-                            <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
-                            <p class="hsttr-btn-text">20-25 minutes</p>
+                    <div class="history-tab">
+                        <!-- BIG-IMG -->
+                        <header class="hstr-head">
+                        </header>
+                        <div class="hstr-two-btns">
+                            <a class="hstr-big-link" href="#">
+                                <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
+                            </a>
+                            <div class="hstr-btn">
+                                <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
+                                <p class="hsttr-btn-text">20-25 minutes</p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- MAIN -->
-                    <h3 class="hstr-title">PETRO AND THE FLEA KING</h3>
-                    <div class="hstr-contextss">
-                        <div class="hstr-contexts">
-                            <div class="hstr-context-1">
-                                <img class="hstr-context-1-img" src="img/welcomeToBed/str-petro-1.png">
-                                <p class="hstr-context-1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod ducimus
-                                    voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
-                                </p>
-                            </div>
-                            <div class="hstr-context-2 container">
-                                <p class="hstr-context-2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod ducimus
-                                    voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
-                                </p>
-                                <img class="hstr-context-2-img" src="img/welcomeToBed/str-petro-2.png">
-                            </div>
-                            <!-- <div class="hstr-context-3 container">
+                        <!-- MAIN -->
+                        <h3 class="hstr-title" id="petro-title">PETRO AND THE FLEA KING</h3>
+                        <div class="hstr-contextss">
+                            <div class="hstr-contexts">
+                                <div class="hstr-context-1">
+                                    <img class="hstr-context-1-img" src="img/welcomeToBed/str-petro-1.png">
+                                    <p class="hstr-context-1-text" id="petro-text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod
+                                        ducimus voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
+                                    </p>
+                                </div>
+                                <div class="hstr-context-2 container">
+                                    <p class="hstr-context-2-text" id="petro-text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat esse repellendus praesentium nesciunt sit possimus debitis eius magni voluptate cupiditate, provident veritatis non animi nostrum? Non, quod
+                                        ducimus voluptatibus alias repudiandae possimus at temporibus consequuntur reprehenderit!
+                                    </p>
+                                    <img class="hstr-context-2-img" src="img/welcomeToBed/str-petro-2.png">
+                                </div>
+                                <!-- <div class="hstr-context-3 container">
                                     <img class="hstr-context-3-img" src="img/sleep time.jpg">
                                     <p class="hstr-context-3-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores incidunt at iste atque autem repellendus illo, officiis vitae distinctio perferendis sapiente, architecto voluptates quaerat eveniet quod veniam culpa. Quos,
                                         ipsa.
                                     </p>
                                 </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- FOOTER -->
+        <footer class="b-footer">
+            <div class="container">
+                <div class="b-footer__wrapper">
+                    <ul class="b-footer__list">
+                        <li class="b-footer__item">
+                            <a class="b-footer__link" href="sleep.html">
+                                <img class="b-footer__img" src="img/welcomeToBed/FTALES.png" width="50" height="50">
+                            </a>
+                            <p class="b-footer__text">fairy tales</p>
+                        </li>
+                        <li class="b-footer__item">
+                            <a class="b-footer__link" href="toons.html">
+                                <img class="b-footer__img" src="img/welcomeToBed/TOONS.png" width="50" height="50">
+                            </a>
+                            <p class="b-footer__text">toons</p>
+                        </li>
+                        <li class="b-footer__item">
+                            <a class="b-footer__link" href="ambience.html">
+                                <img class="b-footer__img" src="img/welcomeToBed/AMBIENCE.png" width="50" height="50">
+                            </a>
+                            <p class="b-footer__text">ambience</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
 
 
-    <!-- HERO -->
-    <!-- <div class="b-hero">
+    <script src="js/app.js"></script>
+    <script src="js/test.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- HERO -->
+<!-- <div class="b-hero">
         <div class="b-hero__container container">
             <header class="b-hero__header">
                 <h3 class="b-hero__header-title">Choose your little story</h3>
@@ -240,8 +303,8 @@
     </div> -->
 
 
-    <!-- clon -->
-    <!-- <h3 style="display: flex; justify-content: center; font-size: 30px;">PETRO AND THE FLEA KING</h3>
+<!-- clon -->
+<!-- <h3 style="display: flex; justify-content: center; font-size: 30px;">PETRO AND THE FLEA KING</h3>
                     <div class="hstr-contextss" style="display: flex; justify-content: center;">
                         <div class="hstr-contexts">
                             <div class="hstr-context-1" style="width: 500px; display: flex; justify-content: center;">
@@ -264,39 +327,3 @@
                             </div>
                         </div>
                     </div> -->
-
-
-
-    <!-- FOOTER -->
-    <footer class="b-footer">
-        <div class="container">
-            <div class="b-footer__wrapper">
-                <ul class="b-footer__list">
-                    <li class="b-footer__item">
-                        <a class="b-footer__link" href="sleep.html">
-                            <img class="b-footer__img" src="img/welcomeToBed/FTALES.png" width="50" height="50">
-                        </a>
-                        <p class="b-footer__text">fairy tales</p>
-                    </li>
-                    <li class="b-footer__item">
-                        <a class="b-footer__link" href="toons.html">
-                            <img class="b-footer__img" src="img/welcomeToBed/TOONS.png" width="50" height="50">
-                        </a>
-                        <p class="b-footer__text">toons</p>
-                    </li>
-                    <li class="b-footer__item">
-                        <a class="b-footer__link" href="ambience.html">
-                            <img class="b-footer__img" src="img/welcomeToBed/AMBIENCE.png" width="50" height="50">
-                        </a>
-                        <p class="b-footer__text">ambience</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/app.js"></script>
-    <script src="js/test.js"></script>
-</body>
-
-</html>

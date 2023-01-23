@@ -368,6 +368,11 @@
 // });
 
 
+
+
+
+
+
 // VIDEO-PLAYLIST
 const listVideo = document.querySelectorAll('.video-list .vid');
 const mainVideo = document.querySelector('.main-video video');
