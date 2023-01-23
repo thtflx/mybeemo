@@ -1767,6 +1767,7 @@ a:visited {
     margin-right: 20px;
     border-radius: 8px;
     border: 1.8px solid rgb(255, 196, 0);
+    object-fit: cover;
 }
 
 .hstr-context-1-text {
@@ -1794,6 +1795,7 @@ a:visited {
     height: 350px;
     border-radius: 8px;
     border: 1.8px solid rgb(255, 196, 0);
+    object-fit: cover;
 }
 
 .hstr-context-3 {
