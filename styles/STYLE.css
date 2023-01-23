@@ -1677,6 +1677,13 @@ a:visited {
     justify-content: center;
 }
 
+.hstr-head3 {
+    /* height: 700px;
+    border-radius: 5.5px;
+    border: 3px solid #030d31; */
+    background-image: url('../img/histories/3.jpg');
+}
+
 
 /* HSTR */
 
@@ -1685,6 +1692,13 @@ a:visited {
     border-radius: 5.5px;
     border: 3px solid #030d31;
     background-image: url('../img/welcomeToBed/petro-img-MAIN.png');
+}
+
+.hstr-head3 {
+    height: 700px;
+    border-radius: 5.5px;
+    border: 3px solid #030d31;
+    background-image: url('../img/histories/3.jpg');
 }
 
 .hstr-two-btns {
