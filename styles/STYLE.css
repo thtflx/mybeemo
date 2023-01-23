@@ -6,6 +6,7 @@
     --inconsolata: 'Inconsolata', monospace;
     --border-radius: 1rem;
     --verdana: Verdana, Geneva, Tahoma, sans-serif;
+    --sofia: 'Sofia Sans', sans-serif;
 }
 
 
@@ -1744,13 +1745,15 @@ a:visited {
 .hstr-context-1-img {
     width: 240px;
     height: 350px;
-    margin-right: 25px;
+    margin-right: 20px;
     border-radius: 8px;
     border: 1.8px solid rgb(255, 196, 0);
 }
 
 .hstr-context-1-text {
+    margin: 0;
     width: 300px;
+    font-family: var(--sofia);
 }
 
 .hstr-context-2 {
@@ -1760,8 +1763,11 @@ a:visited {
 }
 
 .hstr-context-2-text {
+    margin-top: 0;
+    margin-bottom: 0;
     width: 300px;
-    margin-right: 25px
+    margin-right: 20px;
+    font-family: var(--sofia);
 }
 
 .hstr-context-2-img {
@@ -1868,7 +1874,7 @@ a:visited {
     .hstr-context-1 {
         display: flex;
         justify-content: center;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         width: 350px;
     }
     .hstr-context-1-img {
@@ -1878,6 +1884,7 @@ a:visited {
     }
     .hstr-context-1-text {
         width: 150px;
+        height: 248px;
         font-size: 12px;
     }
     .hstr-context-2 {
@@ -1886,7 +1893,8 @@ a:visited {
         width: 350px;
     }
     .hstr-context-2-text {
-        width: 130px;
+        width: 150px;
+        height: 248px;
         font-size: 12px;
         margin-right: 15px;
     }
