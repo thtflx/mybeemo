@@ -1671,6 +1671,11 @@ a:visited {
     font-weight: bold;
 }
 
+.history__ccc {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* HSTR */
 
