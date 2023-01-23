@@ -55,43 +55,33 @@
 
             // LANGUEO
             const langEl = document.querySelector('.language-container');
-            const link = document.querySelectorAll('button');
-            const titleEl = document.querySelector('.hstr-title');
+            const buttons = document.querySelectorAll('button');
+
+            // PETRO
             const petroTitle = document.querySelector('#petro-title');
-            const petroText = document.querySelector('#petro-text-1');
-            const descrEl = document.querySelector('.hstr-context-1-text');
+            const petroText1 = document.querySelector('#petro-text-1');
+            const petroText2 = document.querySelector('#petro-text-2');
 
-            link.forEach(el => {
-                el.addEventListener('click', () => {
-                    const attr = el.getAttribute('language');
+            // LITTLE
+            const littleTitle = document.querySelector('#little-title');
+            const littleText1 = document.querySelector('#little-text-1');
+            const littleText2 = document.querySelector('#little-text-2');
 
-                    titleEl.textContent = data[attr].title;
-                    descrEl.textContent = data[attr].description;
+            buttons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const attr = btn.getAttribute('language');
+
+                    // petro
                     petroTitle.textContent = data[attr].petrotitle;
-                    petroText.textContent = data[attr].petrotext;
+                    petroText1.textContent = data[attr].petrotext1;
+                    petroText2.textContent = data[attr].petrotext2;
+
+                    // little
+                    littleTitle.textContent = data[attr].littletitle;
+                    littleText1.textContent = data[attr].littletext1;
+                    littleText2.textContent = data[attr].littletext2;
                 });
             });
-
-            // var data = {
-            //     "uzbek": {
-            //         "title": "O'zbek!",
-            //         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non adipisci eligendi repellat ad dolor veritatis itaque sequi minus iste, doloremque. Officiis non eaque atque excepturi repudiandae nulla eos eligendi magni molestiae eius distinctio, voluptas pariatur incidunt et culpa inventore aspernatur recusandae nihil asperiores, vitae, maiores laborum quasi perspiciatis natus dignissimos! Accusantium aliquam nostrum impedit dignissimos iste, iure inventore! Sapiente, labore earum ut dicta ducimus asperiores laudantium natus officiis, quisquam placeat aspernatur voluptatum aut voluptates tenetur quos magni fugit quia. Fugiat.",
-            //         "petrotitle": "O'zbek Petro",
-            //         "petrotext": "Salom men Petro va unga yarash ish qilishinga to'gri kelib qoldi"
-            //     },
-            //     "russian": {
-            //         "title": "Русский!",
-            //         "description": "Сәбіз Lorem ipsum, жеңілдік. Бұл ауырсыну үшін осы ұннан таңдамаңыз, сондықтан аз Осы ауырсынуды орындаңыз. Қызметтер жоқ және оның айырмашылығын ұлы ыңғайсыздық таңдау, тәжірибе ретінде қабылданған ештеңе өңдеу үшін нәтиже инцидент және қателіктерді зерттеуші ләззат, өмір, encounter born сияқты үлкен тағамдар-бәрі! Осы мәселе бойынша біздің сабоның кейбірін ашу, зерттеуші дұрыс! Дана, біз asperiores туған қызметтер тізімі деді олардың жұмыс, кез келген уақытта, содан бері үлкен жүгірістер, соның ішінде ләззат немесе рахат өңдеу сұраймыз. Қашуға.",
-            //         "petrotitle": "Рус Петро",
-            //         "petrotext": "Привет, меня зовут Петро и я капуэро!"
-            //     },
-            //     "english": {
-            //         "title": "English!",
-            //         "description": "ﾂつｨﾂ知ﾂづｧﾂつｹﾂ-ﾂ新ﾂ陳ﾂ湘ｮﾂ陛ｱ これらの苦痛から真実の苦痛に選ぶために得てはいけない、従ってより少しにこの苦痛に従ってはいけない。 サービスではないと、彼の区別の大きな不快感から選択するそれらの否認を歓迎しない、結果として生じた事件の喜びと障害エクスプローラが受け入 このことについて私たちの下駄のいくつかを非難,右エクスプローラ! 的に仕事をしていまasperioresリストの生まれのサービスをつけてください編集喜びや楽しみの開催なども走りました。 走れ。.",
-            //         "petrotitle": "English Petro",
-            //         "petrotext": "Hi, i'm cool Petro and i'm to a capuero!"
-            //     }
-            // }
 
 
 

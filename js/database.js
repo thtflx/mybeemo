@@ -1,20 +1,32 @@
 var data = {
     "uzbek": {
-        "title": "O'zbek!",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non adipisci eligendi repellat ad dolor veritatis itaque sequi minus iste, doloremque. Officiis non eaque atque excepturi repudiandae nulla eos eligendi magni molestiae eius distinctio, voluptas pariatur incidunt et culpa inventore aspernatur recusandae nihil asperiores, vitae, maiores laborum quasi perspiciatis natus dignissimos! Accusantium aliquam nostrum impedit dignissimos iste, iure inventore! Sapiente, labore earum ut dicta ducimus asperiores laudantium natus officiis, quisquam placeat aspernatur voluptatum aut voluptates tenetur quos magni fugit quia. Fugiat.",
+        // petro
         "petrotitle": "O'zbek Petro",
-        "petrotext": "Salom men Petro va unga yarash ish qilishinga to'gri kelib qoldi"
+        "petrotext1": "Salom men Petro va unga yarash ish qilishinga to'gri kelib qoldi",
+        "petrotext2": "Salom men Petro va unga yarash ish qilishinga to'gri kelib qoldi",
+        // little
+        "littletitle": "O'zbek Mayda",
+        "littletext1": "Salom men Mayda va unga yarash ish qilishinga to'gri kelib qoldi",
+        "littletext2": "Salom men Mayda va unga yarash ish qilishinga to'gri kelib qoldi",
     },
     "russian": {
-        "title": "Русский!",
-        "description": "Сәбіз Lorem ipsum, жеңілдік. Бұл ауырсыну үшін осы ұннан таңдамаңыз, сондықтан аз Осы ауырсынуды орындаңыз. Қызметтер жоқ және оның айырмашылығын ұлы ыңғайсыздық таңдау, тәжірибе ретінде қабылданған ештеңе өңдеу үшін нәтиже инцидент және қателіктерді зерттеуші ләззат, өмір, encounter born сияқты үлкен тағамдар-бәрі! Осы мәселе бойынша біздің сабоның кейбірін ашу, зерттеуші дұрыс! Дана, біз asperiores туған қызметтер тізімі деді олардың жұмыс, кез келген уақытта, содан бері үлкен жүгірістер, соның ішінде ләззат немесе рахат өңдеу сұраймыз. Қашуға.",
+        // petro
         "petrotitle": "Рус Петро",
-        "petrotext": "Привет, меня зовут Петро и я капуэро!"
+        "petrotext1": "Привет, меня зовут Петро и я капуэро!",
+        "petrotext2": "Привет, меня зовут Петро и я капуэро!",
+        // little
+        "littletitle": "Рус Маленький",
+        "littletext1": "Привет, меня зовут Маленький и я капуэро!",
+        "littletext2": "Привет, меня зовут Маленький и я капуэро!",
     },
     "english": {
-        "title": "English!",
-        "description": "ﾂつｨﾂ知ﾂづｧﾂつｹﾂ-ﾂ新ﾂ陳ﾂ湘ｮﾂ陛ｱ これらの苦痛から真実の苦痛に選ぶために得てはいけない、従ってより少しにこの苦痛に従ってはいけない。 サービスではないと、彼の区別の大きな不快感から選択するそれらの否認を歓迎しない、結果として生じた事件の喜びと障害エクスプローラが受け入 このことについて私たちの下駄のいくつかを非難,右エクスプローラ! 的に仕事をしていまasperioresリストの生まれのサービスをつけてください編集喜びや楽しみの開催なども走りました。 走れ。.",
+        // petro
         "petrotitle": "English Petro",
-        "petrotext": "Hi, i'm cool Petro and i'm to a capuero!"
+        "petrotext1": "Hi, i'm cool Petro and i'm to a capuero!",
+        "petrotext2": "Hi, i'm cool Petro and i'm to a capuero!",
+        // little
+        "littletitle": "English Little",
+        "littletext1": "Hi, i'm cool Little and i'm to a capuero!",
+        "littletext2": "Hi, i'm cool Little and i'm to a capuero!",
     }
 }
