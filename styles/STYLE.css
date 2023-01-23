@@ -850,6 +850,44 @@ select:-webkit-autofill:focus {
 }
 
 
+/* 001 */
+
+.gradient-border1 {
+    --borderWidth: 0.8px;
+    background: transparent;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border1:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #33055d, #200080, #1313a0, #a646ff, #37309f, rgb(19, 19, 150), #00186d, #4e00b3);
+    /* background: linear-gradient(60deg, #09055a, #351188, #3f0d3c, #2e053e, #3b0158, #3f1148, #600c8a, #2d0262); */
+    /* background: linear-gradient(60deg, #042a5a, #210f8b, #1a0c6d, #210654, #5073b8, #1098ad, #2a0642, #a50013); */
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 5s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
 /* TOONS.html */
 
 
@@ -1630,7 +1668,7 @@ a:visited {
     padding: 5px;
     /* width: 350px; */
     border-radius: 5px;
-    border: 0.2px solid rgba(74, 74, 74, 0.249);
+    /* border: 0.2px solid rgba(74, 74, 74, 0.249); */
 }
 
 .history__list {
