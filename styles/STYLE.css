@@ -1828,25 +1828,44 @@ a:visited {
 } */
 
 @media(max-width:400px) {
-    .history-tab {
-        width: 350px;
+    .history__list {
+        /* width: 350px;
+        padding-left: 15px;
+        padding-right: 15px; */
     }
-    .history {
+    .history-tab {
+        /* display: flex;
+        justify-content: center; */
+        width: 330px;
+    }
+    .history-wrapper {
         justify-content: center;
         padding-left: 15px;
         padding-right: 15px;
         /* padding-left: 20px;
         padding-right: 20px; */
     }
-    .hstr-title {
-        font-size: 27px;
+    .history {
+        /* width: 300px; */
     }
-    /* 1 */
+    .hsttr-btn-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .hsttr-btn-text {
+        font-size: 15px;
+    }
+    .hstr-contexts {
+        width: 350px;
+    }
+    .hstr-title {
+        font-size: 25px;
+    }
     .hstr-context-1 {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
-        /* width: 400px; */
+        width: 350px;
     }
     .hstr-context-1-img {
         width: 160px;
@@ -1857,10 +1876,10 @@ a:visited {
         width: 150px;
         font-size: 12px;
     }
-    /* 2 */
     .hstr-context-2 {
         display: flex;
         justify-content: center;
+        width: 350px;
     }
     .hstr-context-2-text {
         width: 130px;
@@ -1872,7 +1891,6 @@ a:visited {
         height: 250px;
         margin: 0;
     }
-    /* 3 */
     .hstr-context-3 {}
     .hstr-context-3-img {
         display: flex;
