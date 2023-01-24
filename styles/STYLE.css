@@ -1715,13 +1715,6 @@ a:visited {
     justify-content: center;
 }
 
-.hstr-head3 {
-    /* height: 700px;
-    border-radius: 5.5px;
-    border: 3px solid #030d31; */
-    background-image: url('../img/histories/3.jpg');
-}
-
 
 /* HSTR */
 
@@ -1741,6 +1734,17 @@ a:visited {
     border-radius: 5.5px;
     border: 3px solid #030d31;
     background-image: url('../img/histories/3.jpg');
+    /*  */
+    background-position: center center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.hstr-head4 {
+    height: 300px;
+    border-radius: 5.5px;
+    border: 3px solid #030d31;
+    background-image: url('../img/histories/alisa3.jpg');
     /*  */
     background-position: center center;
     background-size: 400px;
@@ -1794,6 +1798,7 @@ a:visited {
 }
 
 .hstr-context-1 {
+    margin-bottom: 20px;
     width: 500px;
     display: flex;
     justify-content: center;
@@ -1854,7 +1859,9 @@ a:visited {
 
 /* LANGUAGE */
 
-.language {}
+.language {
+    margin-top: 20px;
+}
 
 .language-title {
     margin: 0;

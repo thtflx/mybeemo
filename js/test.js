@@ -67,6 +67,11 @@
             const littleText1 = document.querySelector('#little-text-1');
             const littleText2 = document.querySelector('#little-text-2');
 
+            // ALISA
+            const alisaTitle = document.querySelector('#alisa-title');
+            const alisaText1 = document.querySelector('#alisa-text-1');
+            const alisaText2 = document.querySelector('#alisa-text-2');
+
             buttons.forEach(btn => {
                 btn.addEventListener('click', () => {
                     const attr = btn.getAttribute('language');
@@ -80,6 +85,11 @@
                     littleTitle.textContent = data[attr].littletitle;
                     littleText1.textContent = data[attr].littletext1;
                     littleText2.textContent = data[attr].littletext2;
+
+                    // alisa
+                    alisaTitle.textContent = data[attr].alisatitle;
+                    alisaText1.textContent = data[attr].alisatext1;
+                    alisaText2.textContent = data[attr].alisatext2;
                 });
             });
 
