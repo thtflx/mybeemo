@@ -1751,6 +1751,20 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+.hstr-head7 {
+    height: 300px;
+    border-radius: 5.5px;
+    border: 3px solid #030d31;
+    background-image: url('../img/histories/origamib.jpg');
+    /*  */
+    background-position: center center;
+    background-size: 650px;
+    background-repeat: no-repeat;
+}
+
+
+/* HSTR -END */
+
 .hstr-two-btns {
     display: flex;
     align-items: center;
@@ -1816,7 +1830,9 @@ a:visited {
 .hstr-context-1-text {
     margin: 0;
     width: 300px;
+    height: 350px;
     font-family: var(--sofia);
+    border: 1px solid palevioletred;
 }
 
 .hstr-context-2 {
@@ -1829,8 +1845,10 @@ a:visited {
     margin-top: 0;
     margin-bottom: 0;
     width: 300px;
+    height: 350px;
     margin-right: 20px;
     font-family: var(--sofia);
+    border: 1px solid palevioletred;
 }
 
 .hstr-context-2-img {
@@ -1854,6 +1872,29 @@ a:visited {
     width: 500px;
     display: flex;
     justify-content: center;
+}
+
+
+/* N-CONTEXT */
+
+.n-context {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.n-context-text {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    letter-spacing: 0.4px;
+    font-family: var(--sofia);
+}
+
+.n-context-img {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    border: 2px solid darkred;
 }
 
 
@@ -1908,46 +1949,24 @@ a:visited {
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.06);
 }
 
+.marg-tb {
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: #15a9b470;
+}
+
 
 /* media-query */
 
-
-/* @media(max-width:400px) {
-    .hstr-context-1 {
-        width: 500px;
+@media(max-width:450px) {
+    .n-context-text {
+        font-size: 16px;
     }
-    .hstr-context-1-img {
-        width: 160px;
-        height: 250px;
-        margin-right: 10px;
+    .n-context-img {
+        width: 600px;
+        height: 200px;
     }
-    .hstr-context-1-text {
-        width: 200px;
-        font-size: 15px;
-    }
-    .hstr-context-2 {
-        width: 500px;
-    }
-    .hstr-context-2-img {
-        width: 240px;
-        height: 350px;
-        margin-right: 25px;
-    }
-    .hstr-context-2-text {
-        width: 300px;
-    }
-    .hstr-context-3 {
-        width: 500px;
-    }
-    .hstr-context-3-img {
-        width: 240px;
-        height: 350px;
-        margin-right: 25px;
-    }
-    .hstr-context-3-text {
-        width: 500px;
-    }
-} */
+}
 
 @media(max-width:430px) {
     .b-header__title {
