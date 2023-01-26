@@ -72,6 +72,31 @@
             const alisaText1 = document.querySelector('#alisa-text-1');
             const alisaText2 = document.querySelector('#alisa-text-2');
 
+            // ORIGAMIB
+            const origamibTitle = document.querySelector('#origamib-title');
+            const origamibText1 = document.querySelector('#origamib-text-1');
+            const origamibText2 = document.querySelector('#origamib-text-2');
+            const origamibText3 = document.querySelector('#origamib-text-3');
+            const origamibText4 = document.querySelector('#origamib-text-4');
+            const origamibText5 = document.querySelector('#origamib-text-5');
+            const origamibText6 = document.querySelector('#origamib-text-6');
+            const origamibText7 = document.querySelector('#origamib-text-7');
+            const origamibText8 = document.querySelector('#origamib-text-8');
+            const origamibText9 = document.querySelector('#origamib-text-9');
+            const origamibText10 = document.querySelector('#origamib-text-10');
+            const origamibText11 = document.querySelector('#origamib-text-11');
+            const origamibText12 = document.querySelector('#origamib-text-12');
+            const origamibText13 = document.querySelector('#origamib-text-13');
+            const origamibText14 = document.querySelector('#origamib-text-14');
+            const origamibText15 = document.querySelector('#origamib-text-15');
+            const origamibText16 = document.querySelector('#origamib-text-16');
+            const origamibText17 = document.querySelector('#origamib-text-17');
+            const origamibText18 = document.querySelector('#origamib-text-18');
+            const origamibText19 = document.querySelector('#origamib-text-19');
+            const origamibText20 = document.querySelector('#origamib-text-20');
+            const origamibText21 = document.querySelector('#origamib-text-21');
+            const origamibText22 = document.querySelector('#origamib-text-22');
+
             buttons.forEach(btn => {
                 btn.addEventListener('click', () => {
                     const attr = btn.getAttribute('language');
@@ -90,6 +115,31 @@
                     alisaTitle.textContent = data[attr].alisatitle;
                     alisaText1.textContent = data[attr].alisatext1;
                     alisaText2.textContent = data[attr].alisatext2;
+
+                    // origamib
+                    origamibTitle.textContent = data[attr].origamibtitle;
+                    origamibText1.textContent = data[attr].origamibtext1;
+                    origamibText2.textContent = data[attr].origamibtext2;
+                    origamibText3.textContent = data[attr].origamibtext3;
+                    origamibText4.textContent = data[attr].origamibtext4;
+                    origamibText5.textContent = data[attr].origamibtext5;
+                    origamibText6.textContent = data[attr].origamibtext6;
+                    origamibText7.textContent = data[attr].origamibtext7;
+                    origamibText8.textContent = data[attr].origamibtext8;
+                    origamibText9.textContent = data[attr].origamibtext9;
+                    origamibText10.textContent = data[attr].origamibtext10;
+                    origamibText11.textContent = data[attr].origamibtext11;
+                    origamibText12.textContent = data[attr].origamibtext12;
+                    origamibText13.textContent = data[attr].origamibtext13;
+                    origamibText14.textContent = data[attr].origamibtext14;
+                    origamibText15.textContent = data[attr].origamibtext15;
+                    origamibText16.textContent = data[attr].origamibtext16;
+                    origamibText17.textContent = data[attr].origamibtext17;
+                    origamibText18.textContent = data[attr].origamibtext18;
+                    origamibText19.textContent = data[attr].origamibtext19;
+                    origamibText20.textContent = data[attr].origamibtext20;
+                    origamibText21.textContent = data[attr].origamibtext21;
+                    origamibText22.textContent = data[attr].origamibtext22;
                 });
             });
 
