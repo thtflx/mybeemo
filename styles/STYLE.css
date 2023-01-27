@@ -135,20 +135,45 @@ select:-webkit-autofill:focus {
     /* 8 */
     /* background: url('https://i.gifer.com/ZPmr.gif'); */
     /* 9 */
-    background: url('https://i.gifer.com/3iCL.gif');
+    /* background: url('https://i.gifer.com/3iCL.gif'); */
     /* background-position: center center; */
     /* 10 */
     /* background: url('https://i.gifer.com/OwtC.gif'); */
     /* 11 */
     /* background: url('https://i.gifer.com/WMih.gif'); */
+    /* 12 */
+    /* background: url('https://media1.giphy.com/media/xUPGcshrKRahaS8ef6/giphy.gif?cid=790b7611979f297df6b86aba60e216aeccbaeeea26504a32&rid=giphy.gif&ct=g'); */
+    /* background: url('../img/histories/green-bg.png'); */
+    /* background: url(''); */
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 1000px; */
+}
+
+.index-bg {
+    /* background: url(''); */
+    background: url('https://media2.giphy.com/media/UsCT2mzipv6I13GD2b/giphy.gif?cid=790b76114086a68f57bf5239c780a05007a1c0193a185ed0&rid=giphy.gif&ct=g');
+    /* background: url('../img/earth.gif'); */
+    /* background: url('https://media1.giphy.com/media/xUPGcshrKRahaS8ef6/giphy.gif?cid=790b7611979f297df6b86aba60e216aeccbaeeea26504a32&rid=giphy.gif&ct=g'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 950px;
 }
 
 .bggg {
-    width: 700px;
-    height: 400px;
+    margin-top: -100px;
+    max-width: 100%;
+    width: 10000px;
+    height: 10000px;
     background-position: center center;
-    transform: rotate(-25deg);
-    background: url('https://i.gifer.com/3iCL.gif');
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    /* background-position: center center;
+    transform: rotate(-25deg); */
+    /* background: url('https://i.gifer.com/3iCL.gif'); */
+    /* background: url('https://bit.ly/3rE5rGF'); */
+    /* background: url('../img/histories/green-bg.png'); */
+    /* background: url('https://media1.giphy.com/media/xUPGcshrKRahaS8ef6/giphy.gif?cid=790b7611979f297df6b86aba60e216aeccbaeeea26504a32&rid=giphy.gif&ct=g'); */
 }
 
 .first__title-wrap {
