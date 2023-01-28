@@ -326,6 +326,17 @@ select:-webkit-autofill:focus {
 }
 
 
+/* TOONS.HTML */
+
+.toons-html {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+    background-color: var(--bg-color);
+    background: url('https://media3.giphy.com/media/2kqOIo6AXQgb76WuT6/giphy.gif?cid=790b7611782d2f0e1874a90f8b44992bb3b0aed5b9885780&rid=giphy.gif&ct=s');
+}
+
+
 /* HEADER */
 
 .b-header {
