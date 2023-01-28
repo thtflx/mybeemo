@@ -343,6 +343,7 @@ select:-webkit-autofill:focus {
 /* HEADER */
 
 .b-header {
+    z-index: 100000;
     padding-top: 20px;
     padding-bottom: 20px;
     /* background-image: url('../img/welcomeToBed/cosmos.jpg'); */
