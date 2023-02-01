@@ -101,6 +101,23 @@
             const tigbugText12 = document.querySelector('#tigbug-text-12');
             const tigbugText13 = document.querySelector('#tigbug-text-13');
             const tigbugText14 = document.querySelector('#tigbug-text-14');
+
+            // MNK
+            const mnkTitle = document.querySelector('#mnk-title');
+            const mnkText1 = document.querySelector('#mnk-text-1');
+            const mnkText2 = document.querySelector('#mnk-text-2');
+            const mnkText3 = document.querySelector('#mnk-text-3');
+            const mnkText4 = document.querySelector('#mnk-text-4');
+            const mnkText5 = document.querySelector('#mnk-text-5');
+            const mnkText6 = document.querySelector('#mnk-text-6');
+            const mnkText7 = document.querySelector('#mnk-text-7');
+            const mnkText8 = document.querySelector('#mnk-text-8');
+            const mnkText9 = document.querySelector('#mnk-text-9');
+            const mnkText10 = document.querySelector('#mnk-text-10');
+            const mnkText11 = document.querySelector('#mnk-text-11');
+            const mnkText12 = document.querySelector('#mnk-text-12');
+            const mnkText13 = document.querySelector('#mnk-text-13');
+            const mnkText14 = document.querySelector('#mnk-text-14');
             // const origamibText11 = document.querySelector('#origamib-text-11');
             // const origamibText12 = document.querySelector('#origamib-text-12');
             // const origamibText13 = document.querySelector('#origamib-text-13');
