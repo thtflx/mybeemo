@@ -1836,6 +1836,28 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+.hstr-head5 {
+    height: 300px;
+    border-radius: 5.5px;
+    border: 3px solid #030d31;
+    background-image: url('../img/histories/mnk.jpg');
+    /*  */
+    background-position: center center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.hstr-head6 {
+    height: 300px;
+    border-radius: 5.5px;
+    border: 3px solid #030d31;
+    background-image: url('../img/histories/tigbug.jpg');
+    /*  */
+    background-position: center center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
 .hstr-head7 {
     height: 300px;
     border-radius: 5.5px;

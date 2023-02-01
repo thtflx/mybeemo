@@ -84,6 +84,23 @@
             const origamibText8 = document.querySelector('#origamib-text-8');
             const origamibText9 = document.querySelector('#origamib-text-9');
             const origamibText10 = document.querySelector('#origamib-text-10');
+
+            // TUGBUG
+            const tigbugTitle = document.querySelector('#tigbug-title');
+            const tigbugText1 = document.querySelector('#tigbug-text-1');
+            const tigbugText2 = document.querySelector('#tigbug-text-2');
+            const tigbugText3 = document.querySelector('#tigbug-text-3');
+            const tigbugText4 = document.querySelector('#tigbug-text-4');
+            const tigbugText5 = document.querySelector('#tigbug-text-5');
+            const tigbugText6 = document.querySelector('#tigbug-text-6');
+            const tigbugText7 = document.querySelector('#tigbug-text-7');
+            const tigbugText8 = document.querySelector('#tigbug-text-8');
+            const tigbugText9 = document.querySelector('#tigbug-text-9');
+            const tigbugText10 = document.querySelector('#tigbug-text-10');
+            const tigbugText11 = document.querySelector('#tigbug-text-11');
+            const tigbugText12 = document.querySelector('#tigbug-text-12');
+            const tigbugText13 = document.querySelector('#tigbug-text-13');
+            const tigbugText14 = document.querySelector('#tigbug-text-14');
             // const origamibText11 = document.querySelector('#origamib-text-11');
             // const origamibText12 = document.querySelector('#origamib-text-12');
             // const origamibText13 = document.querySelector('#origamib-text-13');
@@ -128,40 +145,23 @@
                     origamibText8.textContent = data[attr].origamibtext8;
                     origamibText9.textContent = data[attr].origamibtext9;
                     origamibText10.textContent = data[attr].origamibtext10;
-                    // origamibText11.textContent = data[attr].origamibtext11;
-                    // origamibText12.textContent = data[attr].origamibtext12;
-                    // origamibText13.textContent = data[attr].origamibtext13;
-                    // origamibText14.textContent = data[attr].origamibtext14;
-                    // origamibText15.textContent = data[attr].origamibtext15;
-                    // origamibText16.textContent = data[attr].origamibtext16;
-                    // origamibText17.textContent = data[attr].origamibtext17;
-                    // origamibText18.textContent = data[attr].origamibtext18;
-                    // origamibText19.textContent = data[attr].origamibtext19;
-                    // origamibText20.textContent = data[attr].origamibtext20;
-                    // origamibText21.textContent = data[attr].origamibtext21;
-                    // origamibText22.textContent = data[attr].origamibtext22;
+
+                    // tigbug
+                    tigbugTitle.textContent = data[attr].tigbugtitle;
+                    tigbugText1.textContent = data[attr].tigbugtext1;
+                    tigbugText2.textContent = data[attr].tigbugtext2;
+                    tigbugText3.textContent = data[attr].tigbugtext3;
+                    tigbugText4.textContent = data[attr].tigbugtext4;
+                    tigbugText5.textContent = data[attr].tigbugtext5;
+                    tigbugText6.textContent = data[attr].tigbugtext6;
+                    tigbugText7.textContent = data[attr].tigbugtext7;
+                    tigbugText8.textContent = data[attr].tigbugtext8;
+                    tigbugText9.textContent = data[attr].tigbugtext9;
+                    tigbugText10.textContent = data[attr].tigbugtext10;
+                    tigbugText11.textContent = data[attr].tigbugtext11;
+                    tigbugText12.textContent = data[attr].tigbugtext12;
+                    tigbugText13.textContent = data[attr].tigbugtext13;
+                    tigbugText14.textContent = data[attr].tigbugtext14;
                 });
             });
 
-
-
-            // LANGUAGE
-            //     const uzBtn = document.querySelector('#uz');
-            //     const ruBtn = document.querySelector('#ru');
-            //     const engBtn = document.querySelector('#eng');
-
-            //     const bHeader = document.querySelector('.b-header__title');
-            //     const titil = document.querySelector('.hstr-title');
-
-
-            //     const petroTitle = document.querySelector('#petro-title');
-            //     const petroText1 = document.querySelector('#petro-text-1');
-            //     const petroText2 = document.querySelector('#petro-text-2');
-
-            //     uzBtn.addEventListener('click', () => {
-            //         bHeader.innerText = `YAXSHI YOTIB TUR, JONIM!`;
-            //         petroTitle.innerText = `PETRO VA TARAKANLAR QIROLI`;
-            //         petroText1.innerText = `Kitob mahsulotlarining xarakteristikalari, yetkazib berish shartlari, tashqi ko'rinishi va rangi haqidagi ma'lumotlar faqat ma'lumot uchun mo'ljallangan va joylashtirilgan paytda mavjud bo'lgan eng so'nggi ma'lumotlarga asoslanadi.`;
-            //         petroText2.innerText = `Kitob mahsulotlarining xarakteristikalari, yetkazib berish shartlari, tashqi ko'rinishi va rangi haqidagi ma'lumotlar faqat ma'lumot uchun mo'ljallangan va joylashtirilgan paytda mavjud bo'lgan eng so'nggi ma'lumotlarga asoslanadi.`;
-            //     });
-            // });
