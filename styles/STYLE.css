@@ -152,7 +152,7 @@ select:-webkit-autofill:focus {
 
 .index-bg {
     /* background: url(''); */
-    /* background: url(''); */
+    /* background: url('https://media4.giphy.com/media/nx9MB6OuqYzwQ/giphy.gif?cid=790b7611da937e0830ed57ac0a8afe7a045c6e235c981077&rid=giphy.gif&ct=g'); */
     background: url('https://media3.giphy.com/media/2kqOIo6AXQgb76WuT6/giphy.gif?cid=790b7611782d2f0e1874a90f8b44992bb3b0aed5b9885780&rid=giphy.gif&ct=s');
     background-repeat: no-repeat;
     background-position: center center;
@@ -1781,7 +1781,7 @@ a:visited {
 .history-tab {
     /* width: 200px; */
     padding: 9px;
-    background-color: #20006b;
+    background-color: #03011bc5;
     border-radius: 5px;
     border: 1px solid whitesmoke;
 }
