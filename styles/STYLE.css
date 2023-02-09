@@ -565,6 +565,19 @@ select:-webkit-autofill:focus {
     background: #070823;
 }
 
+.wrappy {
+    margin-bottom: 80px;
+}
+
+.fotter {
+    background-color: #2e34e5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center; 
+    width: 100%;
+}
+
 .b-footer__item {
     justify-content: center;
     text-align: center;
