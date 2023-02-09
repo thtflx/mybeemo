@@ -570,6 +570,7 @@ select:-webkit-autofill:focus {
 }
 
 .fotter {
+    border-top: 1px solid #0b0465;
     background-color: #2e34e5;
     position: fixed;
     right: 0;
@@ -1102,6 +1103,10 @@ select:-webkit-autofill:focus {
 
 .toons__item:not(:last-child) {
     margin-right: 20px;
+}
+
+.toons__item:last-child {
+    margin-bottom: 100px;
 }
 
 .toon {
@@ -2669,7 +2674,7 @@ a:visited {
             padding: 8px 2px 8px 2px;
         }
         .b-footer__item:not(:last-child) {
-            margin-right: 40px;
+            margin-right: 55px;
         }
         .b-footer__img {
             margin: 0;
