@@ -571,8 +571,8 @@ select:-webkit-autofill:focus {
 
 .fotter {
     border-top: 1px solid #0b0465;
-    /* background-color: #2e34e5; */
-    background-color: #000;
+    background-color: #787bd6;
+    /* background-color: #000; */
     position: fixed;
     right: 0;
     bottom: 0;
