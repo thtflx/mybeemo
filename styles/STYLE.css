@@ -562,7 +562,8 @@ select:-webkit-autofill:focus {
     justify-content: center;
     /* border-radius: 30px; */
     /* border: 1px solid #ffffff; */
-    background: #070823;
+    /* background: #070823; */
+    background: #04010fe1;
 }
 
 .wrappy {
@@ -570,8 +571,8 @@ select:-webkit-autofill:focus {
 }
 
 .fotter {
-    border-top: 1px solid #0b0465;
-    background-color: #787bd6;
+    border-top: 1px solid #0a072e;
+    background-color: #030412;
     /* background-color: #000; */
     position: fixed;
     right: 0;
