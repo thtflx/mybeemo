@@ -219,7 +219,7 @@ select:-webkit-autofill:focus {
 /* AYLN */
 .ayln {
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .ayln__container {
     /* display: flex;
@@ -261,8 +261,8 @@ select:-webkit-autofill:focus {
     /* width: 150px;
     height: 150px; */
     padding: 20px;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
 }
 
 
