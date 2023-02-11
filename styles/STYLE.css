@@ -216,6 +216,23 @@ select:-webkit-autofill:focus {
     border-radius: 6px;
 }
 
+/* AYLN */
+.ayln {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ayln__container {
+    display: flex;
+    justify-content: center;
+}
+.ayln__button {
+    display: flex;
+    justify-content: center;
+}
+.ayln__img {
+}
+
+
 
 /* G-B */
 
