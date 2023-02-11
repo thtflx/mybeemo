@@ -230,6 +230,8 @@ select:-webkit-autofill:focus {
     justify-content: center;
 }
 .ayln__img {
+    width: 100px;
+    height: 100px;
 }
 
 
