@@ -222,8 +222,13 @@ select:-webkit-autofill:focus {
     padding-bottom: 100px;
 }
 .ayln__container {
+    /* display: flex;
+    justify-content: center; */
+}
+.ayln__text {
     display: flex;
     justify-content: center;
+    transform: rotate(-10deg);
 }
 .ayln__button {
     display: flex;
