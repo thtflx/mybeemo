@@ -115,7 +115,7 @@ select:-webkit-autofill:focus {
 
 .first {
     padding-top: 100px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     /* 1 */
     /* background: url('https://i.gifer.com/2iiB.gif'); */
     /* 2 */
@@ -2849,7 +2849,7 @@ a:visited {
             margin-right: 5px;
         }
         .first__title {
-            font-size: 40px;
+            font-size: 30px;
         }
         .first__time-cathegory {
             padding: 2px;
