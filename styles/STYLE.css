@@ -229,6 +229,11 @@ select:-webkit-autofill:focus {
     display: flex;
     justify-content: center;
     transform: rotate(-10deg);
+    margin-left: -30px;
+}
+.aylna {
+    display: flex;
+    justify-content: center;
 }
 .ayln__button {
     display: flex;
