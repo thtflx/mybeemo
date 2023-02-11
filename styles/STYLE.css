@@ -234,10 +234,12 @@ select:-webkit-autofill:focus {
 .aylna {
     display: flex;
     justify-content: center;
-    border: 2px solid rgb(255, 119, 0);
+    border: 2px dashed darkblue;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    /* width: 150px;
+    height: 150px; */
+    padding: 10px;
+    align-items: center;
 }
 .ayln__button {
     display: flex;
