@@ -622,7 +622,7 @@ select:-webkit-autofill:focus {
 
 .fotter {
     border-top: 1px solid #0a072e;
-    background-color: #030412;
+    background-color: #03041289;
     /* background-color: #000; */
     position: fixed;
     right: 0;
@@ -2731,11 +2731,11 @@ a:visited {
         }
         .b-footer__img {
             margin: 0;
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
         }
         .b-footer__text {
-            font-size: 12px;
+            font-size: 10px;
             line-height: 21px;
         }
         /* AMBIENCE.html */
