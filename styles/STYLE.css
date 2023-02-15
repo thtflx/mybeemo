@@ -1985,6 +1985,23 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+.episode {
+    margin-left: 5px;
+    background-color: rgb(0, 255, 64);
+    color: black;
+    font-weight: bold;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: -5px;
+    padding-bottom: -5px;
+    border-radius: 14px;
+}
+
 
 /* HSTR -END */
 
