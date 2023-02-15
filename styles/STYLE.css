@@ -2002,6 +2002,10 @@ a:visited {
     border-radius: 14px;
 }
 
+.here {
+    background-color: orange;
+}
+
 
 /* HSTR -END */
 
