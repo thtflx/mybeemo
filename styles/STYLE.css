@@ -2003,16 +2003,18 @@ a:visited {
 }
 
 .here {
-    background-color: orange;
+    background-color: rgb(81, 255, 0);
+    color: rgb(0, 0, 0);
     margin-right: 4px;
-    border-radius: 30px;
+    border-radius: 3px;
     padding-left: 4px;
     padding-right: 4px;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 9px;
+    font-size: 10, 2px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
