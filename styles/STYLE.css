@@ -2092,6 +2092,7 @@ a:visited {
     justify-content: center;
     width: 600px;
     max-width: 100%;
+    object-fit: cover;
     border: 1px solid darkred;
 }
 
