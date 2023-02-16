@@ -2863,7 +2863,7 @@ a:visited {
             position: relative;
             top: -30px;
         }
-        .toon {
+        /* .toon {
             width: 280px;
         }
         .toons__list {
@@ -2878,7 +2878,30 @@ a:visited {
         .toon__img {
             width: 260px;
             height: 150px;
+        } */
+        .toon {
+            width: 170px;
         }
+        .toons__list {
+            justify-content: center;
+        }
+        .toons__item {
+            margin-bottom: 20px;
+        }
+        .toons__item:not(:last-child) {
+            margin-right: 10px;
+        }
+        .toon__img {
+            width: 150px;
+            height: 90px;
+        }
+        .toon__title {
+            font-size: 10px;
+        }
+        .toon__text {
+            font-size: 9px;
+        }
+        /* >><< */
         .toon__play-icon {
             width: 40px;
             height: 40px;
