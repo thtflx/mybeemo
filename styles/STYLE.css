@@ -2165,7 +2165,7 @@ a:visited {
 .language {
     margin-top: 20px;
     padding: 5px;
-    background-color: royalblue;
+    /* background-color: royalblue; */
 }
 
 .language-title {
