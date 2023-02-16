@@ -2897,8 +2897,10 @@ a:visited {
         }
         .toon__title {
             font-size: 10px;
+            margin-bottom: 0;
         }
         .toon__text {
+            margin-top: 0;
             font-size: 9px;
         }
         /* >><< */
