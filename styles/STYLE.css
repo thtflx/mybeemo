@@ -1040,7 +1040,7 @@ select:-webkit-autofill:focus {
     left: calc(-1 * var(--borderWidth));
     height: calc(100% + var(--borderWidth) * 2);
     width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #33055d, #2d127dac, #3030cea0, #a646ff, #37309fc1, rgba(8, 102, 169, 0.662), #304cb398, #4e00b3);
+    background: linear-gradient(60deg, #33055d, #0e9255ac, #3030cea0, #a646ff, #7772c1c1, rgba(8, 102, 169, 0.662), #304cb398, #4e00b3);
     /* background: linear-gradient(60deg, #09055a, #351188, #3f0d3c, #2e053e, #3b0158, #3f1148, #600c8a, #2d0262); */
     /* background: linear-gradient(60deg, #042a5a, #210f8b, #1a0c6d, #210654, #5073b8, #1098ad, #2a0642, #a50013); */
     border-radius: calc(2 * var(--borderWidth));
