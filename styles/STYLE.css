@@ -1877,7 +1877,7 @@ a:visited {
     padding: 9px;
     background-color: #03011bc5;
     border-radius: 5px;
-    border: 1px solid whitesmoke;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .history-tab:not(:last-child) {
