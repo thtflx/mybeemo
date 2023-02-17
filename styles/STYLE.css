@@ -2611,7 +2611,7 @@ a:visited {
 }
 
 .ch-item {
-    background-color: rgb(194, 127, 3);
+    background-color: rgb(6, 6, 6);
     padding: 3px;
     border-radius: 5px;
     font-size: 10px;
@@ -2619,6 +2619,11 @@ a:visited {
 
 .ch-item:not(:last-child) {
     margin-right: 10px;
+}
+
+.chaktiv {
+    color: rgb(166, 236, 14);
+    font-weight: bold;
 }
 
 

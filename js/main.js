@@ -383,14 +383,14 @@ function hideChTabContent() {
     })
 
     chItems.forEach((item) => {
-        item.classList.remove('aktiv');
+        item.classList.remove('chaktiv');
     });
 }
 
 function showChTabContent(i = 0) {
     chContent[i].classList.add('show');
     chContent[i].classList.remove('hide');
-    chItems[i].classList.add('aktiv');
+    chItems[i].classList.add('chaktiv');
 }
 
 hideChTabContent();
