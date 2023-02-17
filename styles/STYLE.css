@@ -2623,6 +2623,7 @@ a:visited {
 .chaktiv {
     color: rgb(166, 236, 14);
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .chshow {
