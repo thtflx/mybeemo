@@ -369,6 +369,45 @@
 
 
 
+// CH
+const chParent = document.querySelector('.ch-parent');
+const chItems = document.querySelectorAll('.ch-item');
+const chContent = document.querySelectorAll('.toons__list');
+
+
+// Tabs
+function hideChTabContent() {
+    chContent.forEach((item) => {
+        item.classList.add('hide');
+        item.classList.remove('show');
+    })
+
+    chItems.forEach((item) => {
+        item.classList.remove('aktiv');
+    });
+}
+
+function showChTabContent(i = 0) {
+    chContent[i].classList.add('show');
+    chContent[i].classList.remove('hide');
+    chItems[i].classList.add('aktiv');
+}
+
+hideChTabContent();
+showChTabContent();
+
+chParent.addEventListener('click', (event) => {
+    const target = event.target;
+    if (target && target.classList.contains('ch-item')) {
+        chItems.forEach((item, idx) => {
+            if (target == item) {
+                hideChTabContent();
+                showChTabContent(idx);
+            }
+        });
+    }
+});
+
 
 
 

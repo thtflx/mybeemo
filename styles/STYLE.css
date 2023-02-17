@@ -2602,6 +2602,26 @@ a:visited {
 }
 
 
+/* CH */
+
+.ch-parent {
+    margin-bottom: 5px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.ch-item {
+    background-color: rgb(194, 127, 3);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.ch-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+
 /* RETINA */
 
 @media screen and (max-width: 479px) {
