@@ -1462,10 +1462,10 @@ a:visited {
 }
 
 #simp .simp-album .simp-artist {
-    font-size: 13px;
-    color: #004789;
+    font-size: 10px;
+    color: whitesmoke;
     font-weight: bold;
-    background-color: whitesmoke;
+    background-color: #4720e3;
     border-radius: 20px;
     padding: 2px;
     display: flex;
@@ -1594,12 +1594,12 @@ a:visited {
 }
 
 #simp .simp-controls .simp-loading .simp-progress::-moz-range-track {
-    background: rgba(255, 255, 255, .25);
+    background: rgba(4, 6, 116, 0.25);
 }
 
 #simp .simp-controls input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #fff;
+    background: #050b38;
     height: 13px;
     width: 13px;
     margin-top: -4px;
@@ -1679,13 +1679,15 @@ a:visited {
 }
 
 .simp-desc {
-    font-size: 11px;
+    font-size: 9px;
+    font-style: var(--sofia);
+    letter-spacing: 0px;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    color: #800062;
+    background-color: #ffffff;
+    color: #000000;
     font-weight: bold;
     padding: 2px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 
