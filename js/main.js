@@ -375,11 +375,10 @@ const chItems = document.querySelectorAll('.ch-item');
 const chContent = document.querySelectorAll('.toons__list');
 
 
-// Tabs
 function hideChTabContent() {
     chContent.forEach((item) => {
         item.classList.add('hide');
-        item.classList.remove('show');
+        item.classList.remove('chshow');
     })
 
     chItems.forEach((item) => {
@@ -388,7 +387,7 @@ function hideChTabContent() {
 }
 
 function showChTabContent(i = 0) {
-    chContent[i].classList.add('show');
+    chContent[i].classList.add('chshow');
     chContent[i].classList.remove('hide');
     chItems[i].classList.add('chaktiv');
 }

@@ -2626,6 +2626,10 @@ a:visited {
     font-weight: bold;
 }
 
+.chshow {
+    display: flex;
+}
+
 
 /* RETINA */
 
@@ -2888,7 +2892,8 @@ a:visited {
             position: relative;
             top: -30px;
         }
-        /* .toon {
+        /* <<>> */
+        .toon {
             width: 280px;
         }
         .toons__list {
@@ -2903,8 +2908,10 @@ a:visited {
         .toon__img {
             width: 260px;
             height: 150px;
-        } */
-        .toon {
+        }
+        /* <<>> */
+        /* >><< */
+        /* .toon {
             width: 170px;
         }
         .toons__list {
@@ -2927,7 +2934,7 @@ a:visited {
         .toon__text {
             margin-top: 0;
             font-size: 9px;
-        }
+        } */
         /* >><< */
         .toon__play-icon {
             width: 40px;
