@@ -1683,11 +1683,11 @@ a:visited {
     font-size: 9px;
     /* font-style: var(--sofia); */
     font-family: var(--sofia);
-    letter-spacing: 0.2px;
+    letter-spacing: 0px;
     justify-content: center;
     background-color: #ffffff;
     color: #000000d3;
-    font-weight: bold;
+    font-weight: 700;
     padding: 2px;
     border-radius: 3px;
 }
