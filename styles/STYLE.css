@@ -989,7 +989,7 @@ select:-webkit-autofill:focus {
 /* 000 */
 
 .gradient-border {
-    --borderWidth: 1.5px;
+    --borderWidth: 1px;
     background: transparent;
     position: relative;
     border-radius: var(--borderWidth);
@@ -1002,7 +1002,8 @@ select:-webkit-autofill:focus {
     left: calc(-1 * var(--borderWidth));
     height: calc(100% + var(--borderWidth) * 2);
     width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #10013d, #200080, #040426, #030c31, #060426, rgb(3, 3, 20), #00186d, #00013a);
+    /* background: linear-gradient(60deg, #10013d, #200080, #040426, #030c31, #060426, rgb(3, 3, 20), #00186d, #00013a); */
+    background: linear-gradient(60deg, #5607a1, #db0ca0ac, #0808a9a0, #dd46ff, #003797c1, rgba(118, 0, 202, 0.662), #304cb398, #4e00b3);
     /* background: linear-gradient(60deg, #09055a, #351188, #3f0d3c, #2e053e, #3b0158, #3f1148, #600c8a, #2d0262); */
     /* background: linear-gradient(60deg, #042a5a, #210f8b, #1a0c6d, #210654, #5073b8, #1098ad, #2a0642, #a50013); */
     border-radius: calc(2 * var(--borderWidth));
