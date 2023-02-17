@@ -2618,6 +2618,7 @@ a:visited {
     padding: 3px;
     border-radius: 5px;
     font-size: 10px;
+    cursor: pointer;
 }
 
 .ch-item:not(:last-child) {

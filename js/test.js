@@ -1,3 +1,42 @@
+            // CH
+            const chParent = document.querySelector('.ch-parent');
+            const chItems = document.querySelectorAll('.ch-item');
+            const chContent = document.querySelectorAll('.toons__list');
+
+
+            function hideChTabContent() {
+                chContent.forEach((item) => {
+                    item.classList.add('hide');
+                    item.classList.remove('chshow');
+                })
+
+                chItems.forEach((item) => {
+                    item.classList.remove('chaktiv');
+                });
+            }
+
+            function showChTabContent(i = 0) {
+                chContent[i].classList.add('chshow');
+                chContent[i].classList.remove('hide');
+                chItems[i].classList.add('chaktiv');
+            }
+
+            hideChTabContent();
+            showChTabContent();
+
+            chParent.addEventListener('click', (event) => {
+                const target = event.target;
+                if (target && target.classList.contains('ch-item')) {
+                    chItems.forEach((item, idx) => {
+                        if (target == item) {
+                            hideChTabContent();
+                            showChTabContent(idx);
+                        }
+                    });
+                }
+            });
+
+
             // CHOOSE STORY
             // 5th try.
             const wrapperTab = document.querySelector('.history');
@@ -181,4 +220,3 @@
                     tigbugText14.textContent = data[attr].tigbugtext14;
                 });
             });
-
