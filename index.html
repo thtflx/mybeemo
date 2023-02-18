@@ -24,6 +24,9 @@
 
 <body class="index-bg">
 
+    <!-- LOADER -->
+
+
     <section class="first">
         <div class="first__container container">
             <header class="first__title-wrap">
@@ -82,6 +85,17 @@
 
     <div class="bggg"></div>
 
+    <script>
+        const loader = document.querySelector('.loader');
+
+        // Loader
+        setTimeout(() => {
+            loader.style.opacity = '0';
+            setTimeout(() => {
+                loader.style.display = 'none';
+            }, 500);
+        }, 2000);
+    </script>
     <script src="js/test.js"></script>
     <!-- <script src="js/test.js"></script> -->
 </body>
