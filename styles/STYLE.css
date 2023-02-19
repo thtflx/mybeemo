@@ -2019,8 +2019,10 @@ a:visited {
 }
 
 .golden {
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
     color: black;
+    background: url('../img/golden.gif');
+    /* color: white; */
 }
 
 .here {
@@ -2174,6 +2176,7 @@ a:visited {
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 600px;
     max-width: 100%;
     object-fit: cover;
