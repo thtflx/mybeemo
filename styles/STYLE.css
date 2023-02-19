@@ -1989,6 +1989,18 @@ a:visited {
     background-repeat: no-repeat;
 }
 
+.hstr-head0 {
+    height: 300px;
+    border-radius: 5.5px;
+    border: 1px solid #0037ff5d;
+    background-image: url('../img/histories/sunny/marry.png');
+    /* background-image: url('https://assets.sooperbooks.com/story-pics/75e20189-1f2a-4446-8bfd-be42085139c9_The-Ogglebogs-E12-bedtime-stories.240x320.gif'); */
+    /*  */
+    background-position: center center;
+    background-size: 550px;
+    background-repeat: no-repeat;
+}
+
 .episode {
     margin-left: 5px;
     background-color: rgb(102, 0, 255);
