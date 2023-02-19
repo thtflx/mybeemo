@@ -348,7 +348,7 @@ select:-webkit-autofill:focus {
     text-decoration: underline;
 }
 
-.item-bg {
+.item-green {
     background-color: rgba(106, 142, 35, 0.438);
     padding: 3px;
     border-radius: 9px;
