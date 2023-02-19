@@ -3272,7 +3272,9 @@ a:visited {
 .accordion__item-toggler {
     border: 0;
     padding: 0;
-    background-color: transparent;
+    background-color: whitesmoke;
+    /* color: whitesmoke; */
+    border-radius: 1px;
     cursor: pointer;
 }
 
@@ -3309,6 +3311,10 @@ a:visited {
     display: none;
     padding-top: 19px;
     padding-bottom: 29px;
+    padding-left: 5px;
+    padding-right: 3px;
+    background-color: rgba(4, 4, 50, 0.215);
+    border-radius: 9px;
     color: var(--text-color-75);
 }
 
