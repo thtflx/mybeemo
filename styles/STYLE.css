@@ -320,11 +320,11 @@ select:-webkit-autofill:focus {
 }
 
 .me-line {
-    width: 300px;
-    height: 5px;
-    background-color: rgb(236, 0, 240);
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(236, 0, 240); */
+    color: rgb(236, 0, 240);
     border: 0;
-    z-index: 1000000000000;
 }
 
 .me__i-app {}
