@@ -320,6 +320,11 @@ select:-webkit-autofill:focus {
     justify-content: center;
     display: flex;
     font-family: var(--sofia);
+    color: rgb(253, 118, 0);
+}
+
+.green {
+    color: greenyellow;
 }
 
 .me__text {
