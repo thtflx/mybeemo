@@ -222,6 +222,15 @@ select:-webkit-autofill:focus {
     align-items: center;
 }
 
+.first__text {
+    margin: 0;
+    color: #fefcfc;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
 
 /* AYLN */
 
@@ -265,8 +274,8 @@ select:-webkit-autofill:focus {
 } */
 
 .ayln__button {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .ayln__img {
