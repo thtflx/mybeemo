@@ -303,6 +303,17 @@ select:-webkit-autofill:focus {
     padding: 10px;
 }
 
+.bg-clr {
+    padding-bottom: 15px;
+    background-color: rgba(29, 29, 177, 0.285);
+    /* padding: 10px; */
+}
+
+.bg-blr {
+    background-color: rgba(0, 0, 0, 0.463);
+    /* background-color: rgba(110, 9, 9, 0.247); */
+}
+
 .me__title {
     margin-top: 0;
     margin-bottom: 5px;
