@@ -333,6 +333,10 @@ select:-webkit-autofill:focus {
     color: greenyellow;
 }
 
+.yellow {
+    color: #FFBF00;
+}
+
 .me__text {
     margin: 0;
     /* display: flex;
