@@ -294,19 +294,32 @@ select:-webkit-autofill:focus {
 
 /* ME */
 
-.mybeemo {}
+.mybeemo {
+    display: flex;
+    justify-content: center;
+}
 
 .me {}
 
-.me__title {}
+.me__title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 
-.me__text {}
+.me__text {
+    margin: 0;
+}
 
 .me__i-app {}
 
-.me__i-title {}
+.me__i-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 
-.me__i-text {}
+.me__i-text {
+    margin: 0;
+}
 
 
 /* G-B */
