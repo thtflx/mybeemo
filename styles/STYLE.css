@@ -190,8 +190,8 @@ select:-webkit-autofill:focus {
 }
 
 .first__title-gif {
-    width: 120px;
-    height: 120px;
+    width: 50px;
+    height: 50px;
     margin-right: 18px;
 }
 
@@ -220,6 +220,7 @@ select:-webkit-autofill:focus {
 .first__sline {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .first__text {
@@ -228,7 +229,7 @@ select:-webkit-autofill:focus {
     font-size: 100px;
     font-weight: 600;
     letter-spacing: 2px;
-    line-height: 80px;
+    /* line-height: 80px; */
 }
 
 
@@ -273,19 +274,14 @@ select:-webkit-autofill:focus {
     align-items: center;
 } */
 
-.ayln__button {
-    /* display: flex;
-    justify-content: center; */
-}
-
 .ayln__img {
     /* border: 2px dashed darkblue; */
     border-radius: 50%;
     /* width: 150px;
     height: 150px; */
     padding: 20px;
-    width: 110px;
-    height: 110px;
+    width: 140px;
+    height: 140px;
 }
 
 
