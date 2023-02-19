@@ -342,6 +342,18 @@ select:-webkit-autofill:focus {
     color: rgb(5, 5, 93);
 }
 
+.ntc {
+    color: rgb(2, 186, 57);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.item-bg {
+    background-color: rgba(106, 142, 35, 0.438);
+    padding: 3px;
+    border-radius: 9px;
+}
+
 .me__i-app {}
 
 .me__i-title {
