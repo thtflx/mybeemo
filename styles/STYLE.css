@@ -3168,3 +3168,156 @@ a:visited {
         }
     }
 }
+
+
+/* ACCORDION */
+
+
+/* ACCORDION */
+
+
+/* TABS */
+
+.tabs__list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tabs__item {
+    width: 243px;
+    border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+}
+
+.tabs__link {
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    border-bottom: 4px solid transparent;
+    color: var(--text-color-75);
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.tabs__item--active .tabs__link {
+    border-color: var(--red);
+    color: var(--text-color);
+}
+
+.tabs__link:hover {
+    color: var(--red);
+}
+
+.tabs__link:active {
+    opacity: 0.6;
+}
+
+
+/* TABPANELS */
+
+.tabpanels {
+    padding-top: 75px;
+    padding-bottom: 165px;
+    background-image: url("../img/blue-pill-bg.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 580px) 156px;
+}
+
+.tabpanels__item {
+    display: none;
+}
+
+.tabpanels__item--active {
+    display: block;
+}
+
+.accordion {
+    border-top: 1px solid rgba(36, 42, 69, 0.15);
+}
+
+.accordion__item {
+    border-bottom: 1px solid rgba(36, 42, 69, 0.15);
+}
+
+.accordion__item-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+}
+
+.accordion__item-title {
+    flex-grow: 1;
+    margin: 0;
+    margin-right: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.accordion__item-header:hover .accordion__item-title {
+    color: var(--red);
+}
+
+.accordion__item-toggler {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.accordion__item-toggler:focus {
+    outline: none;
+}
+
+.accordion__item-toggler::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.accordion__item-toggler:focus::before {
+    outline: auto;
+}
+
+.accordion__item-toggler-icon {
+    display: block;
+    width: 20px;
+    height: 13px;
+    color: var(--blue);
+}
+
+.accordion__item--open .accordion__item-toggler-icon {
+    transform: rotate(180deg);
+    color: var(--red);
+}
+
+.accordion__item-content {
+    display: none;
+    padding-top: 19px;
+    padding-bottom: 29px;
+    color: var(--text-color-75);
+}
+
+.accordion__item--open .accordion__item-content {
+    display: block;
+}
+
+.accordion__item-text {
+    margin: 0;
+}
+
+.accordion__item-text:not(:last-child) {
+    margin-bottom: 20px;
+}
