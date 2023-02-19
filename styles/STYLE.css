@@ -349,8 +349,8 @@ select:-webkit-autofill:focus {
 }
 
 .item-green {
-    background-color: rgba(106, 142, 35, 0.438);
-    padding: 3px;
+    background-color: rgba(5, 7, 127, 0.461);
+    padding: 1.99px;
     border-radius: 9px;
 }
 
@@ -3326,7 +3326,7 @@ a:visited {
 
 .accordion__item--open .accordion__item-toggler-icon {
     transform: rotate(180deg);
-    color: var(--red);
+    color: whitesmoke;
 }
 
 .accordion__item-content {
