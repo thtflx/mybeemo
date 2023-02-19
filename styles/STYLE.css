@@ -308,6 +308,8 @@ select:-webkit-autofill:focus {
 
 .me__text {
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .me__i-app {}
@@ -315,10 +317,14 @@ select:-webkit-autofill:focus {
 .me__i-title {
     margin-top: 0;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .me__i-text {
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 
