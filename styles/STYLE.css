@@ -2021,7 +2021,8 @@ a:visited {
 .golden {
     /* background-color: goldenrod; */
     color: black;
-    background: url('../img/golden.gif');
+    background: url('../img/tnr.gif');
+    /* background-position: center center; */
     /* color: white; */
 }
 
