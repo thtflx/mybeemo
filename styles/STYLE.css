@@ -323,8 +323,12 @@ select:-webkit-autofill:focus {
     display: flex;
     justify-content: center;
     /* background-color: rgb(236, 0, 240); */
-    color: rgb(236, 0, 240);
+    color: rgb(0, 116, 240);
     border: 0;
+}
+
+.blu {
+    color: rgb(5, 5, 93);
 }
 
 .me__i-app {}
