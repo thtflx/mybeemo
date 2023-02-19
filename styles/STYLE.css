@@ -301,6 +301,9 @@ select:-webkit-autofill:focus {
 
 .me {
     padding: 10px;
+    /* background-color: #01010892; */
+    background-color: rgba(1, 1, 13, 0.587);
+    border-radius: 8px;
 }
 
 .bg-clr {
