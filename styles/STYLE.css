@@ -357,9 +357,9 @@ select:-webkit-autofill:focus {
 }
 
 .item-green {
-    background-color: rgba(5, 7, 127, 0.461);
+    background-color: rgba(4, 6, 99, 0.674);
     padding: 1.99px;
-    border-radius: 9px;
+    border-radius: 4px;
 }
 
 .me__i-app {}
