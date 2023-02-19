@@ -299,20 +299,24 @@ select:-webkit-autofill:focus {
     justify-content: center;
 }
 
-.me {}
+.me {
+    padding: 10px;
+}
 
 .me__title {
     margin-top: 0;
     margin-bottom: 5px;
-    display: flex;
     justify-content: center;
+    display: flex;
+    font-family: var(--sofia);
 }
 
 .me__text {
     margin: 0;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     font-size: 15px;
+    font-family: var(--sofia);
 }
 
 .me__i-app {}
@@ -320,15 +324,14 @@ select:-webkit-autofill:focus {
 .me__i-title {
     margin-top: 0;
     margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .me__i-text {
     margin: 0;
     display: flex;
     justify-content: center;
-    font-family: var(--sofia);
     /* width: 500px; */
     max-width: 100%;
 }
