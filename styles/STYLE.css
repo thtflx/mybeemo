@@ -219,8 +219,7 @@ select:-webkit-autofill:focus {
 
 .first__sline {
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .first__text {
@@ -230,6 +229,11 @@ select:-webkit-autofill:focus {
     font-weight: 600;
     letter-spacing: 2px;
     /* line-height: 80px; */
+}
+
+.first__ayln {
+    /* display: flex;
+    justify-content: center; */
 }
 
 
@@ -250,12 +254,13 @@ select:-webkit-autofill:focus {
     justify-content: center;
     transform: rotate(25deg);
     margin-right: -80px;
-    margin-bottom: 0;
+    margin-bottom: 2px;
+    font-size: 10px;
 }
 
 .arrow {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     /* font-weight: bold;  */
@@ -282,8 +287,8 @@ select:-webkit-autofill:focus {
     /* width: 150px;
     height: 150px; */
     padding: 10px;
-    width: 120px;
-    height: 120px;
+    width: 115px;
+    height: 115px;
 }
 
 
