@@ -220,7 +220,7 @@ select:-webkit-autofill:focus {
 .first__sline {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .first__text {
@@ -248,8 +248,8 @@ select:-webkit-autofill:focus {
 .ayln__text {
     display: flex;
     justify-content: center;
-    transform: rotate(-25deg);
-    margin-left: -80px;
+    transform: rotate(25deg);
+    margin-right: -80px;
     margin-bottom: 0;
 }
 
@@ -259,9 +259,11 @@ select:-webkit-autofill:focus {
     display: flex;
     justify-content: center;
     /* font-weight: bold;  */
-    margin-left: -60px;
+    /* margin-left: -60px; */
+    margin-right: -60px;
     margin-top: -15px;
-    transform: rotate(-25deg);
+    margin-bottom: -10px;
+    transform: rotate(25deg);
 }
 
 
@@ -275,13 +277,13 @@ select:-webkit-autofill:focus {
 } */
 
 .ayln__img {
-    /* border: 2px dashed darkblue; */
+    border: 2px dashed rgb(192, 192, 207);
     border-radius: 50%;
     /* width: 150px;
     height: 150px; */
-    padding: 20px;
-    width: 140px;
-    height: 140px;
+    padding: 10px;
+    width: 120px;
+    height: 120px;
 }
 
 
