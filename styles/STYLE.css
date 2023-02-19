@@ -3283,7 +3283,7 @@ a:visited {
 .accordion__item-toggler {
     border: 0;
     padding: 0;
-    background-color: rgba(4, 0, 53, 0.788);
+    background-color: transparent;
     border-radius: 1px;
     cursor: pointer;
 }
@@ -3309,7 +3309,7 @@ a:visited {
     display: block;
     width: 20px;
     height: 13px;
-    color: var(--blue);
+    color: whitesmoke;
 }
 
 .accordion__item--open .accordion__item-toggler-icon {
