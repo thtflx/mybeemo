@@ -337,6 +337,10 @@ select:-webkit-autofill:focus {
     color: #FFBF00;
 }
 
+.grey {
+    color: rgba(207, 207, 207, 0.653);
+}
+
 .me__text {
     margin: 0;
     /* display: flex;
