@@ -1183,7 +1183,7 @@ select:-webkit-autofill:focus {
 
 .toons {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     /* background-color: red; */
     /* 1 */
     /* background: url('https://i.gifer.com/2iiB.gif'); */
@@ -2308,6 +2308,10 @@ a:visited {
 
 .other {
     margin-top: 0;
+}
+
+.another {
+    margin-top: -170px;
 }
 
 .language-title {
