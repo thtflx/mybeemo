@@ -2306,6 +2306,10 @@ a:visited {
     /* background-color: royalblue; */
 }
 
+.other {
+    margin-top: 0;
+}
+
 .language-title {
     margin: 0;
     display: flex;
