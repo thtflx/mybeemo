@@ -341,6 +341,10 @@ select:-webkit-autofill:focus {
     color: rgba(207, 207, 207, 0.653);
 }
 
+.rd {
+    color: rgba(255, 180, 40, 0.909);
+}
+
 .me__text {
     margin: 0;
     /* display: flex;
