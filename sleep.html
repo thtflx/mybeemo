@@ -239,9 +239,16 @@
                         <header class="hstr-head6">
                         </header>
                         <div class="hstr-two-btns">
-                            <a class="hstr-big-link" href="#" id="playAudio">
-                                <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
-                            </a>
+                            <audio id="idAudio4" src="audio/ambience.mp3"></audio>
+                            <!--  -->
+                            <p class="button-stl" onclick="playaudio4()" type="button">
+                                <i class="material-icons">play_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="pauseaudio4()" type="button">
+                                <i class="material-icons">pause_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="stopaudio4()" type="button">
+                                <i class="material-icons">stop</i></p>
                             <div class="hstr-btn">
                                 <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
                                 <p class="hsttr-btn-text">20-25 minutes</p>
@@ -282,9 +289,19 @@
                         <header class="hstr-head7">
                         </header>
                         <div class="hstr-two-btns">
-                            <a class="hstr-big-link" href="#" id="playAudio">
+                            <!-- <a class="hstr-big-link" href="#" id="playAudio">
                                 <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
-                            </a>
+                            </a> -->
+                            <audio id="idAudio3" src="audio/Hush Little Baby _ + More Kids Songs _ Super Simple Songs.mp3"></audio>
+                            <!--  -->
+                            <p class="button-stl" onclick="playaudio3()" type="button">
+                                <i class="material-icons">play_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="pauseaudio3()" type="button">
+                                <i class="material-icons">pause_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="stopaudio3()" type="button">
+                                <i class="material-icons">stop</i></p>
                             <div class="hstr-btn">
                                 <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
                                 <p class="hsttr-btn-text">20-25 minutes</p>
@@ -803,6 +820,36 @@
         function stopaudio2() {
             c.pause();
             c.currentTime = 0;
+        }
+        // 3
+        var d = document.getElementById("idAudio3");
+
+        function playaudio2() {
+            d.play();
+        }
+
+        function pauseaudio2() {
+            d.pause();
+        }
+
+        function stopaudio2() {
+            d.pause();
+            d.currentTime = 0;
+        }
+        // 2
+        var e = document.getElementById("idAudio4");
+
+        function playaudio2() {
+            e.play();
+        }
+
+        function pauseaudio2() {
+            e.pause();
+        }
+
+        function stopaudio2() {
+            e.pause();
+            e.currentTime = 0;
         }
     </script>
     <script src="js/app.js"></script>
