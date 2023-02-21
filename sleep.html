@@ -344,7 +344,8 @@
                         <header class="hstr-head8">
                         </header>
                         <div class="hstr-two-btns">
-                            <a class="hstr-big-link" href="#" id="playAudio">
+                            <audio src="audio/baby-mozart1.mp3" id="Audio-hanzel"></audio>
+                            <a class="hstr-big-link" href="#" onclick="MyAudio2()">
                                 <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
                             </a>
                             <div class="hstr-btn">
@@ -540,7 +541,8 @@
                         <header class="hstr-head0">
                         </header>
                         <div class="hstr-two-btns">
-                            <a class="hstr-big-link" href="#" id="playAudio">
+                            <audio src="audio/polog.mp3" id="Audio-sunnygirl"></audio>
+                            <a class="hstr-big-link" href="#" onclick="MyAudio1()">
                                 <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
                             </a>
                             <div class="hstr-btn">
@@ -713,7 +715,15 @@
         </footer> -->
     </div>
 
+    <script>
+        function MyAudio1() {
+            document.getElementById("Audio-sunnygirl").play();
+        }
 
+        function MyAudio2() {
+            document.getElementById("Audio-hanzel").play();
+        }
+    </script>
     <script src="js/app.js"></script>
     <script src="js/test.js"></script>
     <script src="js/database.js"></script>
