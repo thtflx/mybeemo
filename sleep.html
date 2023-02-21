@@ -348,11 +348,14 @@
                             <a class="hstr-big-link" href="#" onclick="MyAudio2()">
                                 <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
                             </a> -->
-                            <audio id="idAudio1" src="audio/Спят_усталые_игрушки,_книжки_спят.mp3"></audio>
+                            <audio id="idAudio1" src="audio/polog.mp3"></audio>
                             <!--  -->
-                            <button class="button-stl" onclick="playaudio1()" type="button"> Play</button>
-                            <button class="button-stl" onclick="pauseaudio1()" type="button"> Pause</button>
-                            <button class="button-stl" onclick="stopaudio1()" type="button"> Stop</button>
+                            <p class="button-stl" onclick="playaudio1()" type="button">▶️</p>
+                            <p class="button-stl" onclick="pauseaudio1()" type="button">⏸</p>
+                            <p class="button-stl" onclick="stopaudio1()" type="button">⏹</p>
+                            <!-- <button class="button-stl" onclick="playaudio1()" type="button">▶</button>
+                            <button class="button-stl" onclick="pauseaudio1()" type="button">⏸</button>
+                            <button class="button-stl" onclick="stopaudio1()" type="button">◼</button> -->
                             <!--  -->
                             <div class="hstr-btn">
                                 <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
@@ -551,11 +554,14 @@
                             <!-- <a class="hstr-big-link" href="#" onclick="MyAudio1()">
                                 <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
                             </a> -->
-                            <audio id="idAudio" src="audio/polog.mp3"></audio>
+                            <audio id="idAudio" src="audio/baby-mozart1.mp3"></audio>
                             <!--  -->
-                            <button class="button-stl" onclick="playaudio()" type="button"> Play</button>
-                            <button class="button-stl" onclick="pauseaudio()" type="button"> Pause</button>
-                            <button class="button-stl" onclick="stopaudio()" type="button"> Stop</button>
+                            <p class="button-stl" onclick="playaudio()" type="button">▶️</p>
+                            <p class="button-stl" onclick="pauseaudio()" type="button">⏸</p>
+                            <p class="button-stl" onclick="stopaudio()" type="button">⏹</p>
+                            <!-- <button class="button-stl" onclick="playaudio()" type="button">▶️</button>
+                            <button class="button-stl" onclick="pauseaudio()" type="button">⏸</button>
+                            <button class="button-stl" onclick="stopaudio()" type="button">⏹</button> -->
                             <!--  -->
                             <div class="hstr-btn">
                                 <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
@@ -750,19 +756,19 @@
             a.currentTime = 0;
         }
         // 1
-        var a = document.getElementById("idAudio1");
+        var b = document.getElementById("idAudio1");
 
         function playaudio1() {
-            a.play();
+            b.play();
         }
 
         function pauseaudio1() {
-            a.pause();
+            b.pause();
         }
 
         function stopaudio1() {
-            a.pause();
-            a.currentTime = 0;
+            b.pause();
+            b.currentTime = 0;
         }
     </script>
     <script src="js/app.js"></script>
