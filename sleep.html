@@ -499,9 +499,16 @@
                         <header class="hstr-head9">
                         </header>
                         <div class="hstr-two-btns">
-                            <a class="hstr-big-link" href="#" id="playAudio">
-                                <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
-                            </a>
+                            <audio id="idAudio2" src="audio/Спят_усталые_игрушки,_книжки_спят.mp3"></audio>
+                            <!--  -->
+                            <p class="button-stl" onclick="playaudio2()" type="button">
+                                <i class="material-icons">play_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="pauseaudio2()" type="button">
+                                <i class="material-icons">pause_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="stopaudio2()" type="button">
+                                <i class="material-icons">stop</i></p>
                             <div class="hstr-btn">
                                 <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
                                 <p class="hsttr-btn-text">20-25 minutes</p>
@@ -781,6 +788,21 @@
         function stopaudio1() {
             b.pause();
             b.currentTime = 0;
+        }
+        // 2
+        var c = document.getElementById("idAudio2");
+
+        function playaudio2() {
+            c.play();
+        }
+
+        function pauseaudio2() {
+            c.pause();
+        }
+
+        function stopaudio2() {
+            c.pause();
+            c.currentTime = 0;
         }
     </script>
     <script src="js/app.js"></script>
