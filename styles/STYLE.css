@@ -3438,7 +3438,7 @@ a:visited {
     height: 150px;
     margin: -30px;
     border-radius: 50%;
-    border: 3px solid transparent;
+    border: 2.4px solid transparent;
     border-top: 2px solid #24ecff;
     animation: animate 4s linear infinite;
 }
