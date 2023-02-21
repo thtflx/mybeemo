@@ -3446,7 +3446,7 @@ a:visited {
 .contnr .ring:nth-child(2) {
     animation: animate2 4s linear infinite;
     animation-delay: -1s;
-    border-top: 2px solid transparent;
+    border-top: 3px solid transparent;
     border-left: 2px solid #390084;
     /* border-left: 4px solid #93ff2d; */
 }
