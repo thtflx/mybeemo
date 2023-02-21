@@ -187,15 +187,22 @@
                     </div> -->
 
 
-                    <!-- 5-HISTORY (LILY OF THE VALLEY) -->
+                    <!-- 5-HISTORY (MONTYS RASHES) -->
                     <div class="history-tab">
                         <!-- BIG-IMG -->
                         <header class="hstr-head5">
                         </header>
                         <div class="hstr-two-btns">
-                            <a class="hstr-big-link" href="#" id="playAudio">
-                                <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
-                            </a>
+                            <audio id="idAudio5" src="audio/polog.mp3"></audio>
+                            <!--  -->
+                            <p class="button-stl" onclick="playaudio5()" type="button">
+                                <i class="material-icons">play_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="pauseaudio5playaudio5()" type="button">
+                                <i class="material-icons">pause_circle_outline</i>
+                            </p>
+                            <p class="button-stl" onclick="stopaudio5playaudio5()" type="button">
+                                <i class="material-icons">stop</i></p>
                             <div class="hstr-btn">
                                 <img class="hstr-btn-icon" src="img/welcomeToBed/str-time-icon.png" width="40" height="40">
                                 <p class="hsttr-btn-text">20-25 minutes</p>
@@ -239,7 +246,7 @@
                         <header class="hstr-head6">
                         </header>
                         <div class="hstr-two-btns">
-                            <audio id="idAudio4" src="audio/ambience.mp3"></audio>
+                            <audio id="idAudio4" src="audio/polog.mp3"></audio>
                             <!--  -->
                             <p class="button-stl" onclick="playaudio4()" type="button">
                                 <i class="material-icons">play_circle_outline</i>
@@ -292,7 +299,7 @@
                             <!-- <a class="hstr-big-link" href="#" id="playAudio">
                                 <img class="hstr-big-img" src="img/welcomeToBed/str-play-btn.png" width="90" height="90">
                             </a> -->
-                            <audio id="idAudio3" src="audio/Hush Little Baby _ + More Kids Songs _ Super Simple Songs.mp3"></audio>
+                            <audio id="idAudio3" src="audio/polog.mp3"></audio>
                             <!--  -->
                             <p class="button-stl" onclick="playaudio3()" type="button">
                                 <i class="material-icons">play_circle_outline</i>
@@ -824,33 +831,63 @@
         // 3
         var d = document.getElementById("idAudio3");
 
-        function playaudio2() {
+        function playaudio3() {
             d.play();
         }
 
-        function pauseaudio2() {
+        function pauseaudio3() {
             d.pause();
         }
 
-        function stopaudio2() {
+        function stopaudio3() {
             d.pause();
             d.currentTime = 0;
         }
-        // 2
+        // 4
         var e = document.getElementById("idAudio4");
 
-        function playaudio2() {
+        function playaudio4() {
             e.play();
         }
 
-        function pauseaudio2() {
+        function pauseaudio4() {
             e.pause();
         }
 
-        function stopaudio2() {
+        function stopaudio4() {
             e.pause();
             e.currentTime = 0;
         }
+        // 5
+        var f = document.getElementById("idAudio5");
+
+        function playaudio5() {
+            f.play();
+        }
+
+        function pauseaudio5() {
+            f.pause();
+        }
+
+        function stopaudio5() {
+            f.pause();
+            f.currentTime = 0;
+        }
+        // 6
+        // var g = document.getElementById("idAudio6");
+
+        // function playaudio6() {
+        //     g.play();
+        // }
+
+        // function pauseaudio6() {
+        //     g.pause();
+        // }
+
+        // function stopaudio6() {
+        //     g.pause();
+        //     g.currentTime = 0;
+        // }
     </script>
     <script src="js/app.js"></script>
     <script src="js/test.js"></script>
