@@ -2215,13 +2215,13 @@ a:visited {
     background-color: #00013aa8;
     border: 0;
     color: white;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     /* font-size: 11px; */
-    width: 30px;
-    height: 30px;
-    padding: 5px;
+    width: 35px;
+    height: 35px;
+    padding: 2px;
     font-size: 20px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
