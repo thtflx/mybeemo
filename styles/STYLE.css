@@ -2204,6 +2204,22 @@ a:visited {
 
 /* MAIN */
 
+
+/* Sleep buttons */
+
+.button-stl {
+    background-color: #010107;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.button-stl:not(:last-child) {
+    margin-right: 5px;
+}
+
 .hstr-title {
     margin-top: 0;
     display: flex;
