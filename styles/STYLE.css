@@ -2010,7 +2010,11 @@ a:visited {
 }
 
 .aktiv {
-    color: rgb(255, 119, 0);
+    /* color: rgb(255, 119, 0); */
+    /* color: rgb(160, 45, 209); */
+    /* color: #ff3b66; */
+    /* color: #31b482; */
+    color: #ff6f3b;
     font-weight: bold;
 }
 
