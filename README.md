@@ -1,5 +1,4 @@
-About project.
 
-updated and added!
+Will be updated and added!
 
 
