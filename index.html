@@ -64,21 +64,21 @@
 
 
     <script>
-        // const btn = document.querySelector('.popup__button');
+        const btn = document.querySelector('.popup__button');
         const trailerContainer = document.querySelector('.popup__trailer-container');
         const poppy = document.querySelector('.popup');
         const closeIcon = document.querySelector('.close-icon');
 
-        // closeIcon.addEventListener('click', () => {
-        //     trailerContainer.classList.add('active');
-        // });
+        closeIcon.addEventListener('click', () => {
+            trailerContainer.classList.add('active');
+        });
 
         btn.addEventListener('click', () => {
             trailerContainer.classList.remove('active');
         });
 
         setTimeout(() => {
-            // trailerContainer.add('active');
+            trailerContainer.remove('active');
             poppy.classList.add('active');
         }, 24000);
     </script>
