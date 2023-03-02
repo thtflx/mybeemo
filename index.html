@@ -70,13 +70,24 @@
         const trailerContainer = document.querySelector('.popup__trailer-container');
         const poppy = document.querySelector('.popup');
         const closeIcon = document.querySelector('.close-icon');
+        const video = document.querySelector('.video');
 
-        closeIcon.addEventListener('click', () => {
-            trailerContainer.classList.add('active');
-        });
+
 
         btn.addEventListener('click', () => {
             trailerContainer.classList.remove('active');
+            trailerContainer.innerHTML = `
+                <video class="video" src="video/INTRO.mp4" autoplay></video>
+            `;
+            setTimeout(() => {
+                trailerContainer.remove('active');
+                poppy.classList.add('active');
+            }, 24000);
+
+        });
+
+        closeIcon.addEventListener('click', () => {
+            trailerContainer.classList.add('active');
         });
 
         // В НАЧАЛЕ ЗАГРУЗКИ.
