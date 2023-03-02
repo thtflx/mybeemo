@@ -40,16 +40,50 @@
     </div> -->
 
     <!-- Loader -->
-    <section class="loader" style="z-index: 9999999999999;">
+    <!-- <section class="loader" style="z-index: 9999999999999;">
         <div class="preloader">
             <div class="contnr">
                 <div class="ring"></div>
                 <div class="ring"></div>
                 <div class="ring"></div>
-                <!-- <p>mybeemo presents...</p> -->
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- POPUP -->
+    <section class="popup container" style="z-index: 999999990000000; display: flex; justify-content: center;">
+        <div class="popup__content" style="display: flex; justify-content: center;">
+            <button class="popup__button button">Watch now!</button>
+            <div class="popup__trailer-container">
+                <video class="video" src="video/INTRO.mp4" autoplay></video>
+                <i class="fas fa-times close-icon"></i>
             </div>
         </div>
     </section>
+
+
+    <script>
+        // const btn = document.querySelector('.popup__button');
+        const trailerContainer = document.querySelector('.popup__trailer-container');
+        const poppy = document.querySelector('.popup');
+        const closeIcon = document.querySelector('.close-icon');
+
+        // closeIcon.addEventListener('click', () => {
+        //     trailerContainer.classList.add('active');
+        // });
+
+        btn.addEventListener('click', () => {
+            trailerContainer.classList.remove('active');
+        });
+
+        setTimeout(() => {
+            // trailerContainer.add('active');
+            poppy.classList.add('active');
+        }, 24000);
+    </script>
+
+
 
 
     <section class="first" style="z-index: 100000000;">
@@ -57,8 +91,6 @@
             <header class="first__title-wrap">
                 <h1 class="first__title" style="display: flex; justify-content: center;">Time to sleep!</h1>
                 <div class="first__sline">
-                    <!-- <img class="first__title-gif" src="img/welcomeToBed/beemo.gif"> -->
-                    <!-- <p class="first__title">sleepy</p> -->
                     <div class="first__ayln">
                         <p class="ayln__text">click here</p>
                         <span class="arrow">↓</span>
@@ -76,51 +108,6 @@
         <a class="about-me" style="background-color:#C70039 ; padding: 2px; border-radius: 4px; font-weight: 400;" href="me.html">first, come here!</a>
     </div>
 
-
-    <!-- <section class="ayln">
-        <div class="ayln__container container">
-            <p class="ayln__text">click here </p>
-            <span class="arrow">↓</span>
-            <a class="ayln__button" href="sleep.html">
-                <img class="ayln__img" src="img/ayln.png">
-            </a>
-        </div>
-    </section> -->
-
-
-
-    <!-- <section class="first">
-        <div class="first__container container">
-            <header class="first__title-wrap">
-                <img class="first__title-gif" src="img/welcomeToBed/beemo.gif">
-                <h1 class="first__title">Time to be sleepy</h1>
-            </header>
-            <ul class="first__time-list">
-                <li class="first__time-item g-b">
-                    <div class="content-2">
-                        <a href="sleep.html" class="first__time__btn-link">
-                            <img class="first__time__btn-icon" src="img/PLAY.png">
-                        </a>
-                        <div class="first__time-cathegory">
-                            <h3 class="first__time-title">Time to be sleepy</h3>
-                        </div>
-                        <img class="first__time-icon" src="img/welcomeToBed/gifs/mn22.webp">
-                        <img class="first__time-icon icn-pos" src="img/welcomeToBed/gifs/mn20.webp">
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section> -->
-
-    <!-- LANGUAGE -->
-    <!-- <section class="language" style="z-index: 1000000; text-align:right;">
-        <h2 class="language-title">Choose your language</h2>
-        <div class="language-container container">
-            <button class="lang" id="uz">uz</button>
-            <button class="lang" id="ru">ru</button>
-            <button class="lang" id="eng">eng</button>
-        </div>
-    </section> -->
 
     <div class="bggg"></div>
 
