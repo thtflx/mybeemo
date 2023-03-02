@@ -3657,3 +3657,13 @@ a:visited {
     color: white;
     cursor: pointer;
 }
+
+.popup__button {
+    background-color: #000728;
+    color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
