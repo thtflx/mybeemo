@@ -8,6 +8,8 @@ body {
     background-color: wheat;
 }
 
+.bmo {}
+
 .body-cub {
     display: flex;
     justify-content: center;
@@ -21,7 +23,7 @@ body {
     width: 300px;
     height: 300px;
     transform-style: preserve-3d;
-    animation: animate 4s linear infinite;
+    animation: animate 5.6s linear infinite;
 }
 
 @keyframes animate {
