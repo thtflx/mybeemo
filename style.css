@@ -63,7 +63,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border: 2px solid rgb(18, 19, 18);
+    border: 2px solid rgb(0, 132, 156);
+    /* border: 2px solid rgb(18, 19, 18); */
     transform: rotateY(calc(90deg* var(--i))) translateZ(150px);
 }
 
