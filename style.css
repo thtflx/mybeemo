@@ -5,6 +5,10 @@
 }
 
 body {
+    background-color: wheat;
+}
+
+.body-cub {
     display: flex;
     justify-content: center;
     align-items: center;

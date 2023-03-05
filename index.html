@@ -27,6 +27,26 @@
 
 <body class="index-bg">
 
+
+    <!-- BMO LOADER -->
+    <div class="body-cub">
+        <div class="cube">
+            <div class="top"></div>
+            <div>
+                <span style="--i:0;"></span>
+                <span style="--i:1;"></span>
+                <span style="--i:2;"></span>
+                <span style="--i:3;"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
     <!-- LOADER -->
     <!-- <div class="loader">
         <h3 style="color:black;">mybeemo</h3>
@@ -133,6 +153,16 @@
             loader.style.opacity = '0';
             setTimeout(() => {
                 loader.style.display = 'none';
+            }, 500);
+        }, 4100);
+
+
+        const bmoLoader = document.querySelector('.body-cub');
+        // Loader
+        setTimeout(() => {
+            bmoLoader.style.opacity = '0';
+            setTimeout(() => {
+                bmoLoader.style.display = 'none';
             }, 500);
         }, 4100);
     </script>
