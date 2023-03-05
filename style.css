@@ -8,7 +8,102 @@ body {
     background-color: wheat;
 }
 
-.bmo {}
+.body-cub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #050505;
+}
+
+.cube {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    animation: animate 5.6s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+
+.cube div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+
+/* BMO */
+
+.cube div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    /* background: linear-gradient(#151515, #00ec00); */
+    /* background: url('https://static.insales-cdn.com/images/products/1/6403/461945091/2926538.jpg'); */
+    background: url('https://i.pinimg.com/originals/f3/13/c2/f313c2f096403a296b5a173793a7f87d.gif');
+    /* background: url('https://static.wixstatic.com/media/83a2d4_657e0dea656041cb807dcbd38a01c845~mv2.gif/v1/fill/w_1485,h_836,q_90/83a2d4_657e0dea656041cb807dcbd38a01c845~mv2.gif'); */
+    /* background: url('https://huma.id/projects/bmo/sleeping.gif'); */
+    /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkIM2inSBgPSnXhoMOJYq-Vjr7ZqrnfgMDA2IaVogp7JC-_ztLKj-v8RzIHP7-f1AnmE&usqp=CAU'); */
+    /* background: url('https://media.tenor.com/3OeGB2OF2egAAAAC/bmo-adventure.gif'); */
+    /* background: url('https://wallpaperaccess.com/full/248340.jpg'); */
+    /* tv */
+    /* background: url('https://thumbs.gfycat.com/BlissfulPlaintiveBuzzard-size_restricted.gif'); */
+    /* background: url('https://i.gifer.com/oWz.gif'); */
+    /* background: url('https://64.media.tumblr.com/b6f2b616890ee090fca2421ee91af6dd/tumblr_my4jw6cQqO1qbs7jfo1_500.gif'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid rgb(0, 132, 156);
+    /* border: 2px solid rgb(18, 19, 18); */
+    transform: rotateY(calc(90deg* var(--i))) translateZ(75px);
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: #38adb1;
+    transform: rotateX(90deg) translateZ(74px);
+    border-radius: 2px;
+}
+
+
+/* BLUR */
+
+.top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    transform: translateZ(-320px);
+    filter: blur(20px);
+    /* background: #0f0;
+    box-shadow: 0 0 120px rgba(0, 255, 0, 0.2), 0 0 200px rgba(0, 255, 0, 0.4), 0 0 300px rgba(0, 255, 0, 0.6), 0 0 400px rgba(0, 255, 0, 0.8), 0 0 500px rgba(0, 255, 0, 1); */
+    background: rgb(0, 102, 255);
+    box-shadow: 0 0 120px rgb(0, 102, 255), 0 0 200px rgb(0, 102, 255), 0 0 300px rgb(0, 102, 255), 0 0 400px rgb(0, 102, 255), 0 0 500px rgb(0, 102, 255);
+    border-radius: 60px;
+}
+
+
+/* OLD */
 
 .body-cub {
     display: flex;

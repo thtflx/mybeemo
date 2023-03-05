@@ -3684,8 +3684,8 @@ a:visited {
 
 .cube {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     transform-style: preserve-3d;
     animation: animate 5.6s linear infinite;
 }
@@ -3735,7 +3735,7 @@ a:visited {
     background-size: 100% 100%;
     border: 2px solid rgb(0, 132, 156);
     /* border: 2px solid rgb(18, 19, 18); */
-    transform: rotateY(calc(90deg* var(--i))) translateZ(150px);
+    transform: rotateY(calc(90deg* var(--i))) translateZ(75px);
 }
 
 .top {
@@ -3745,7 +3745,7 @@ a:visited {
     width: 300px;
     height: 300px;
     background: #38adb1;
-    transform: rotateX(90deg) translateZ(150px);
+    transform: rotateX(90deg) translateZ(74px);
     border-radius: 2px;
 }
 
@@ -3757,9 +3757,9 @@ a:visited {
     position: absolute;
     top: 0;
     left: 0;
-    width: 300px;
-    height: 300px;
-    transform: translateZ(-380px);
+    width: 150px;
+    height: 150px;
+    transform: translateZ(-320px);
     filter: blur(20px);
     /* background: #0f0;
     box-shadow: 0 0 120px rgba(0, 255, 0, 0.2), 0 0 200px rgba(0, 255, 0, 0.4), 0 0 300px rgba(0, 255, 0, 0.6), 0 0 400px rgba(0, 255, 0, 0.8), 0 0 500px rgba(0, 255, 0, 1); */
