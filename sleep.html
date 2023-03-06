@@ -31,6 +31,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles/STYLE.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body class="sleep-html">
@@ -59,6 +60,48 @@
                 <!-- <button class="lang" language="english">eng</button> -->
             </div>
         </section>
+
+        <!-- MODAL -->
+        <div class="modal" data-modal>
+            <div class="modal-close-overlay" data-modal-overlay></div>
+            <div class="modal-content">
+                <button class="modal-close-btn" data-modal-close>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+                <div class="newsletter-img">
+                    <img src="img/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+                </div>
+                <div class="newsletter">
+                    <form action="#">
+                        <div class="newsletter-header">
+                            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+                            <p class="newsletter-desc">
+                                Subscribe the <b>Anon</b> to get latest products and discount update.
+                            </p>
+                        </div>
+                        <!-- <input type="email" name="email" class="email-field" placeholder="Email Address" required> -->
+                        <!-- <button type="submit" class="btn-newsletter">Subscribe</button> -->
+                        <a class="btn-newsletter" href="me.html">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // modal variables
+            const modal = document.querySelector('[data-modal]');
+            const modalCloseBtn = document.querySelector('[data-modal-close]');
+            const modalCloseOverlay = document.querySelector('[data-modal-overlay]');
+
+            // modal function
+            const modalCloseFunc = function() {
+                modal.classList.add('closed')
+            }
+
+            // modal eventListener
+            modalCloseOverlay.addEventListener('click', modalCloseFunc);
+            modalCloseBtn.addEventListener('click', modalCloseFunc);
+        </script>
 
 
 
